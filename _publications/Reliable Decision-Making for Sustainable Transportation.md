@@ -8,6 +8,8 @@ paperurl: 'https://www.sciencedirect.com/book/edited-volume/9780443337406/reliab
 ---
 
 
+[Download book](https://www.sciencedirect.com/book/edited-volume/9780443337406/reliable-decision-making-for-sustainable-transportation)
+
 About the book
 
 Key Features
@@ -59,4 +61,3 @@ Chapter 17. [Data-driven reliable decision-making approach for last mile deliver
 
 Chapter 18. [Designing resilient pharmaceutical supply chains: optimization methods for medicine shortages](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000013)
 
-[Download book](https://www.sciencedirect.com/book/edited-volume/9780443337406/reliable-decision-making-for-sustainable-transportation)
