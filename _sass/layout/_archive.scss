@@ -2,39 +2,6 @@
    ARCHIVE
    ========================================================================== */
 
-<style>
-  /* این کد تمام قوانین قبلی را لغو می‌کند */
-  
-  /* ۱. حذف فاصله زیر عنوان */
-  h2.archive__item-title, 
-  .archive__item-title, 
-  .archive__item-title a {
-    margin-bottom: 0px !important;
-    padding-bottom: 0px !important;
-    display: block !important;
-    line-height: 1.1 !important;
-  }
-
-  /* ۲. حذف فاصله پاراگراف‌های خودکار در اکسرپت */
-  .archive__item-excerpt, 
-  .archive__item-excerpt p {
-    margin-top: 2px !important;
-    margin-bottom: 2px !important;
-    padding: 0 !important;
-    line-height: 1.3 !important;
-  }
-
-  /* ۳. بالا کشیدن دکمه */
-  .archive__item .btn {
-    margin-top: 5px !important;
-    display: inline-block !important;
-  }
-
-  /* ۴. حذف فضای خالی بین کل آیتم‌ها */
-  .archive__item {
-    margin-bottom: 1.5em !important;
-  }
-</style>
 .archive {
   margin-bottom: 2em;
 
