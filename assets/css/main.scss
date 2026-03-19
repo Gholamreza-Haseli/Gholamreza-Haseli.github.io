@@ -41,30 +41,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* کاهش فاصله بین اجزای هر مقاله در لیست پابلیکیشن‌ها */
-
-/* ۱. کم کردن فاصله زیر عنوان مقاله */
-.archive__item-title {
-  margin-bottom: 0.25em !important; 
-  line-height: 1.2 !important;
-}
-
-/* ۲. کم کردن فاصله متن توضیحات (نویسندگان و ژورنال) */
-.archive__item-excerpt {
-  margin-top: 0 !important;
-  margin-bottom: 0.5em !important;
-  line-height: 1.4 !important;
-  font-size: 0.9em !important; /* کمی کوچکتر برای شیک‌تر شدن */
-}
-
-/* ۳. بالا کشیدن دکمه دانلود و حذف فاصله‌های اضافی اطراف آن */
-.archive__item-excerpt + p, 
-.archive__item-excerpt + a,
-.btn--primary {
-  margin-top: 0 !important;
-}
-
-/* اگر دکمه داخل یک تگ p قرار دارد، فاصله آن تگ را حذف می‌کنیم */
-.archive__item p {
-  margin-bottom: 0.5em !important;
-}
