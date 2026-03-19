@@ -548,7 +548,7 @@ border-radius: .1em;
 .ai-stack {
   display: inline-block;
   height: 1em;
-  line-height: 2em;
+  line-height: 1em;
   position: relative;
   vertical-align: middle;
   width: 2.5em;
