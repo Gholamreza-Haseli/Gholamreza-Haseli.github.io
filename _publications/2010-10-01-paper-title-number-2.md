@@ -2,7 +2,7 @@
 title: "Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-Cloud-supply-chain-as-a-service:-overcoming-barriers-in-the-fashion-retail-industry-by-developing-a-new-cognitive-map-model
+permalink: /publication/Cloud-supply-chain-as-a-service:-overcoming-barriers-in-the-fashion-retail-industry-by-developing-a-new-cognitive-map-model
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 venue: 'Journal 1'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824'
