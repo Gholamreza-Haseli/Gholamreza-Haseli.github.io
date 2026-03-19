@@ -23,21 +23,21 @@ Reliable Decision-Making for Sustainable Transportation explores decision-making
 
 Table of contents
 
-Chapter 1 - An overview of group decision-making reliability for sustainable transportation
+Chapter 1 - [An overview of group decision-making reliability for sustainable transportation](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000025)
 
-Chapter 2 - Citizen participation and transport sustainability: a reliable analytic hierarchy process model under fuzzy ZE-numbers
+Chapter 2 - [Citizen participation and transport sustainability: a reliable analytic hierarchy process model under fuzzy ZE-numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B978044333740600013X)
 
-Chapter 3 - Leveraging blockchain technology for real-time decision-making to enhance supply chain sustainability and logistics resilience
+Chapter 3 - [Leveraging blockchain technology for real-time decision-making to enhance supply chain sustainability and logistics resilience](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000116)
 
-Chapter 4 - Blockchain-enabled decision system for reliable transportation planning in reverse logistics networks
+Chapter 4 - [Blockchain-enabled decision system for reliable transportation planning in reverse logistics networks](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000128)
 
-Chapter 5 - Assessment of relief transport challenges in areas with outdated infrastructure based on the reliability concept of ZE numbers
+Chapter 5 - [Assessment of relief transport challenges in areas with outdated infrastructure based on the reliability concept of ZE numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000037)
 
-Chapter 6 - Decision support reliability under fuzzy ZE-numbers in urban climate change policy for transportation activities
+Chapter 6 - [Decision support reliability under fuzzy ZE-numbers in urban climate change policy for transportation activities](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000165)
 
-Chapter 7 - Consolidating perspectives of experts and decision-makers by fuzzy ZE-TOPSIS for sustainable urban transportation
+Chapter 7 - [Consolidating perspectives of experts and decision-makers by fuzzy ZE-TOPSIS for sustainable urban transportation](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000177)
 
-Chapter 8 - Assessment of perishable goods transportation challenges using decision-making under fuzzy ZE-numbers
+Chapter 8 - [Assessment of perishable goods transportation challenges using decision-making under fuzzy ZE-numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000141)
 
 Chapter 9 - Fuzzy ZE-VIKOR for estimating sustainable mobility system
 
