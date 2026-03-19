@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 2"
+title: "Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
