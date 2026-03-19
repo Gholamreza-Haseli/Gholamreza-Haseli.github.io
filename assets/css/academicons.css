@@ -24,7 +24,7 @@
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
-  line-height: 0.6;
+  line-height: 1;
 }
 .ai-academia:before {
   content: "\e9af";
@@ -547,8 +547,8 @@ border-radius: .1em;
 
 .ai-stack {
   display: inline-block;
-  height: 6em;
-  line-height: 6em;
+  height: 2em;
+  line-height: 2em;
   position: relative;
   vertical-align: middle;
   width: 2.5em;
