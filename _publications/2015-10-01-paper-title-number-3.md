@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 3"
+title: "Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
+excerpt: 'The fashion retail industry, known for its dynamic and fast-changing nature, faces unique challenges in adopting new supply chain technologies. Despite advancements in cloud-based solutions, these technologies have had limited success in the fashion segment due to complex barriers. This study aims to propose a cloud supply chain as a service model for the fashion retail industry and to identify and analyze the implementation barriers. A cognitive map model using the system of systems theory is proposed under a two-step group decision analytics approach to overcome the identified barriers. Additionally, a case study is conducted on a sports fashion retailer with eleven stores in Dublin, Ireland. Through experts’ opinions, six main and twenty-two sub-barriers to implementing a cloud supply chain as a service were identified and analyzed. The proposed cognitive map model introduces several methodological innovations to the literature. These include the use of barrier positioning in causal diagrams, the integration of reliability assessments at two-level group decision analytics, and the structured collection of judgments from 19 experts and 4 decision-makers on two different scales. The results yield a practical roadmap for overcoming barriers, supported by four predictive scenarios that demonstrate how changes in barrier influence can affect the system. These scenarios highlight the model’s ability to support adaptive, reliable decisions in a complex environment. Overall, the proposed cognitive map model provides actionable insights for implementing cloud supply chain as a service in fashion retail. This model contributes a novel, robust method for dynamic decision analytics in supply chain management.'
+date: 2026-02
+venue: 'Transportation Research Part E: Logistics and Transportation Review'
 slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+paperurl: '[https://academicpages.github.io/files/paper3.pdf](https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824)'
+citation: 'Haseli, G., Hajiaghaei-Keshteli, M., Deveci, M., & Tomaskova, H. (2026). Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model. Transportation Research Part E: Logistics and Transportation Review, 206, 104554.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
