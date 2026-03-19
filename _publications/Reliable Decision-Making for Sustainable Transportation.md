@@ -58,3 +58,5 @@ Chapter 16. [A decentralized web-app decision support system for logistics manag
 Chapter 17. [Data-driven reliable decision-making approach for last mile delivery to handle uncertainty: challenges and opportunities](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000104)
 
 Chapter 18. [Designing resilient pharmaceutical supply chains: optimization methods for medicine shortages](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000013)
+
+[Download book](https://www.sciencedirect.com/book/edited-volume/9780443337406/reliable-decision-making-for-sustainable-transportation)
