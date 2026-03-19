@@ -3,17 +3,10 @@ title: "Cloud supply chain as a service: overcoming barriers in the fashion reta
 collection: publications
 category: manuscripts
 permalink: /publication/Cloud-supply-chain-as-a-service:-overcoming-barriers-in-the-fashion-retail-industry-by-developing-a-new-cognitive-map-model
-excerpt: 'Haseli, G., Hajiaghaei-Keshteli, M., Deveci, M., & Tomaskova, H. (2026). &quot;Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model.&quot; <i>[Transportation Research Part E: Logistics and Transportation Review](https://www.sciencedirect.com/journal/transportation-research-part-e-logistics-and-transportation-review)</i>. 206, 104554.'
-paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824'
+excerpt: 'Haseli, G., Hajiaghaei-Keshteli, M., Deveci, M., & Tomaskova, H. (2026). &quot;Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model.&quot; <i>[Transportation Research Part E: Logistics and Transportation Review](https://www.sciencedirect.com/journal/transportation-research-part-e-logistics-and-transportation-review)</i>. 206, 104554.' [Download Paper](https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824)
 ---
-<div style="margin-top: -10px;"> <p style="margin-bottom: 5px; line-height: 1;">
-    Haseli, G., Hajiaghaei-Keshteli, M., Deveci, M., & Tomaskova, H. (2026). "Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model." <i><a href="https://www.sciencedirect.com/journal/transportation-research-part-e-logistics-and-transportation-review">Transportation Research Part E: Logistics and Transportation Review</a></i>. 206, 104554.
-  </p>
-  
-  <a href="https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824" class="btn btn--primary" style="margin-top: 0;">Download Paper</a>
-</div>
 
-<hr>
+[Download Paper](https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824)
 
 Abstract
 
