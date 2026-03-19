@@ -23,38 +23,38 @@ Reliable Decision-Making for Sustainable Transportation explores decision-making
 
 Table of contents
 
-Chapter 1 - [An overview of group decision-making reliability for sustainable transportation](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000025)
+Chapter 1. [An overview of group decision-making reliability for sustainable transportation](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000025)
 
-Chapter 2 - [Citizen participation and transport sustainability: a reliable analytic hierarchy process model under fuzzy ZE-numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B978044333740600013X)
+Chapter 2. [Citizen participation and transport sustainability: a reliable analytic hierarchy process model under fuzzy ZE-numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B978044333740600013X)
 
-Chapter 3 - [Leveraging blockchain technology for real-time decision-making to enhance supply chain sustainability and logistics resilience](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000116)
+Chapter 3. [Leveraging blockchain technology for real-time decision-making to enhance supply chain sustainability and logistics resilience](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000116)
 
-Chapter 4 - [Blockchain-enabled decision system for reliable transportation planning in reverse logistics networks](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000128)
+Chapter 4. [Blockchain-enabled decision system for reliable transportation planning in reverse logistics networks](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000128)
 
-Chapter 5 - [Assessment of relief transport challenges in areas with outdated infrastructure based on the reliability concept of ZE numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000037)
+Chapter 5. [Assessment of relief transport challenges in areas with outdated infrastructure based on the reliability concept of ZE numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000037)
 
-Chapter 6 - [Decision support reliability under fuzzy ZE-numbers in urban climate change policy for transportation activities](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000165)
+Chapter 6. [Decision support reliability under fuzzy ZE-numbers in urban climate change policy for transportation activities](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000165)
 
-Chapter 7 - [Consolidating perspectives of experts and decision-makers by fuzzy ZE-TOPSIS for sustainable urban transportation](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000177)
+Chapter 7. [Consolidating perspectives of experts and decision-makers by fuzzy ZE-TOPSIS for sustainable urban transportation](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000177)
 
-Chapter 8 - [Assessment of perishable goods transportation challenges using decision-making under fuzzy ZE-numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000141)
+Chapter 8. [Assessment of perishable goods transportation challenges using decision-making under fuzzy ZE-numbers](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000141)
 
-Chapter 9 - Fuzzy ZE-VIKOR for estimating sustainable mobility system
+Chapter 9. [Fuzzy ZE-VIKOR for estimating sustainable mobility system](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000153)
 
-Chapter 10 - Enhancing urban transportation by shared mobility solutions surveyed with fuzzy ZE-based decision-making
+Chapter 10. [Enhancing urban transportation by shared mobility solutions surveyed with fuzzy ZE-based decision-making](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000074)
 
-Chapter 11 - Artificial intelligence techniques in road safety for sustainable mobility: an investigation into applications, challenges, and opportunities
+Chapter 11. [Artificial intelligence techniques in road safety for sustainable mobility: an investigation into applications, challenges, and opportunities](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000098)
 
-Chapter 12 - Integrating urban form, transportation, and energy efficiency: a reliable guide for decision-makers towards sustainable urban mobility
+Chapter 12. [Integrating urban form, transportation, and energy efficiency: a reliable guide for decision-makers towards sustainable urban mobility](https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780443337406000062)
 
-Chapter 13 - Enhancing citizen engagement in transportation decision-making planning through digital voting using artificial intelligence
+Chapter 13. [Enhancing citizen engagement in transportation decision-making planning through digital voting using artificial intelligence](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000189)
 
-Chapter 14 - Bibliometric analysis in artificial intelligence and transportation: evaluation of research and future perspectives
+Chapter 14. [Bibliometric analysis in artificial intelligence and transportation: evaluation of research and future perspectives](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000050)
 
-Chapter 15 - Driving toward efficiency: analysis of driver behavior and fuel consumption through machine learning
+Chapter 15. [Driving toward efficiency: analysis of driver behavior and fuel consumption through machine learning](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000190)
 
-Chapter 16 - A decentralized web-app decision support system for logistics management in wildfire
+Chapter 16. [A decentralized web-app decision support system for logistics management in wildfire](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000086)
 
-Chapter 17 - Data-driven reliable decision-making approach for last mile delivery to handle uncertainty: challenges and opportunities
+Chapter 17. [Data-driven reliable decision-making approach for last mile delivery to handle uncertainty: challenges and opportunities](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000104)
 
-Chapter 18 - Designing resilient pharmaceutical supply chains: optimization methods for medicine shortages
+Chapter 18. [Designing resilient pharmaceutical supply chains: optimization methods for medicine shortages](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000013)
