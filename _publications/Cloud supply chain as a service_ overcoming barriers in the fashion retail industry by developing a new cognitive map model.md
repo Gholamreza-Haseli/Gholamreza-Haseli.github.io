@@ -1,5 +1,5 @@
 ---
-title: "Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model"
+title: "Cloud Supply Chain as a Service: Overcoming Barriers in the Fashion Retail Industry by Developing a New Cognitive Map Model"
 collection: publications
 category: manuscripts
 permalink: /publication/Cloud-supply-chain-as-a-service:-overcoming-barriers-in-the-fashion-retail-industry-by-developing-a-new-cognitive-map-model
