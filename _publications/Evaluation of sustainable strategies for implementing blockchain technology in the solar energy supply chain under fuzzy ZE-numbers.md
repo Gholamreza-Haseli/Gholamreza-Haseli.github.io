@@ -1,4 +1,5 @@
 ---
+priority: 2
 title: "Evaluation of Sustainable Strategies for Implementing Blockchain Technology in the Solar Energy Supply Chain Under Fuzzy ZE-numbers"
 collection: publications
 category: manuscripts
