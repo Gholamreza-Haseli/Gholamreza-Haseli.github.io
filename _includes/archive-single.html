@@ -7,7 +7,7 @@
 
     {% if post.excerpt %}
       <div class="archive__item-excerpt" itemprop="description" style="margin-top: 0 !important; margin-bottom: 0 !important;">
-        <p style="margin: 0 !important; line-height: 1.4 !important; font-size: 0.95em;">
+        <p style="margin: 0 !important; line-height: 1.4 !important; font-size: 1.1em;">
           {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
         </p>
       </div>
