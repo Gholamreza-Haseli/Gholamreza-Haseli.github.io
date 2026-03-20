@@ -1,4 +1,5 @@
 ---
+priority: 4
 title: "Analyzing Operational Risks of Digital Supply Chain Transformation Using Hybrid ISM-MICMAC Method"
 collection: publications
 category: manuscripts
