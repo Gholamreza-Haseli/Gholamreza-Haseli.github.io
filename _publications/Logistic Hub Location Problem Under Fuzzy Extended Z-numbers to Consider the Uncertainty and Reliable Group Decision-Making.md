@@ -1,5 +1,5 @@
 ---
-priority: 2
+priority: 3
 title: "Logistic Hub Location Problem Under Fuzzy Extended Z-numbers to Consider the Uncertainty and Reliable Group Decision-Making"
 collection: publications
 category: manuscripts
