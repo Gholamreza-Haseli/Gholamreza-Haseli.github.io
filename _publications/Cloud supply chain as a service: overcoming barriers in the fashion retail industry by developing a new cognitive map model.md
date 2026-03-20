@@ -1,5 +1,5 @@
 ---
-priority: 1
+priority: 25
 title: "Cloud Supply Chain as a Service: Overcoming Barriers in the Fashion Retail Industry by Developing a New Cognitive Map Model"
 collection: publications
 category: manuscripts
