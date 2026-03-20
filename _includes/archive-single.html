@@ -15,7 +15,7 @@
 
 {% if post.excerpt %}
   <div class="archive__item-excerpt" itemprop="description" style="margin-top: -5px !important; margin-bottom: 0px !important;">
-    <p style="margin: 0 !important; line-height: 1.1 !important;">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    <p style="margin: -5 !important; line-height: 0.5 !important;">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
   </div>
 {% endif %}
 
