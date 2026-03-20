@@ -2,10 +2,14 @@
 title: "Cloud Supply Chain as a Service: Overcoming Barriers in the Fashion Retail Industry by Developing a New Cognitive Map Model"
 collection: publications
 category: manuscripts
-permalink: /publication/Cloud-supply-chain-as-a-service:-overcoming-barriers-in-the-fashion-retail-industry-by-developing-a-new-cognitive-map-model
-excerpt: 'Haseli, G., Hajiaghaei-Keshteli, M., Deveci, M., & Tomaskova, H. (2026). &quot;Cloud supply chain as a service: overcoming barriers in the fashion retail industry by developing a new cognitive map model.&quot; <i>[Transportation Research Part E: Logistics and Transportation Review](https://www.sciencedirect.com/journal/transportation-research-part-e-logistics-and-transportation-review)</i>. 206, 104554.'
+permalink: /publication/Cloud-Supply-Chain-as-a-service:-Overcoming-Barriers-in-the-Fashion-Retail-Industry-by-Developing-a-new-Cognitive-Map-Model
+excerpt: 'Haseli, G., Hajiaghaei-Keshteli, M., Deveci, M., & Tomaskova, H. (2026). &quot;Cloud Supply Chain as a Service: Overcoming Barriers in the Fashion Retail Industry by Developing a New Cognitive Map Model.&quot; <i>[Transportation Research Part E: Logistics and Transportation Review](https://www.sciencedirect.com/journal/transportation-research-part-e-logistics-and-transportation-review)</i>. 206, 104554.'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824'
 ---
+
+
+[Download Paper](https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824)
+
 
 Abstract
 
