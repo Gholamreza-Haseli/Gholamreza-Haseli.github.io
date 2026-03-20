@@ -1,10 +1,10 @@
 ---
 priority: 13
-title: "HECON: Weight Assessment of the Product Loyalty Criteria Considering the Customer Decision's Halo Effect Using the Convolutional Neural Networks"
+title: "HECON: Weight Assessment of the Product Loyalty Criteria Considering the Customer Decisions Halo Effect Using the Convolutional Neural Networks"
 collection: publications
 category: manuscripts
-permalink: /publication/HECON:-Weight-Assessment-of-the-Product-Loyalty-Criteria-Considering-the-Customer-Decision's-Halo-Effect-Using-the-Convolutional-Neural-Networks
-excerpt: 'Haseli, G., Ranjbarzadeh, R., Hajiaghaei-Keshteli, M., Ghoushchi, S. J., Hasani, A., Deveci, M., & Ding, W. (2023). &quot;HECON: Weight Assessment of the Product Loyalty Criteria Considering the Customer Decision's Halo Effect Using the Convolutional Neural Networks.&quot; <i>[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)</i>. 623, 184-205.'
+permalink: /publication/HECON:-Weight-Assessment-of-the-Product-Loyalty-Criteria-Considering-the-Customer-Decisions-Halo-Effect-Using-the-Convolutional-Neural-Networks
+excerpt: 'Haseli, G., Ranjbarzadeh, R., Hajiaghaei-Keshteli, M., Ghoushchi, S. J., Hasani, A., Deveci, M., & Ding, W. (2023). &quot;HECON: Weight Assessment of the Product Loyalty Criteria Considering the Customer Decisions Halo Effect Using the Convolutional Neural Networks.&quot; <i>[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)</i>. 623, 184-205.'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0020025522015201'
 ---
 
