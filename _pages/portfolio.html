@@ -8,10 +8,11 @@ author_profile: true
 {% include base_path %}
 
 <style>
+  /* استفاده از متغیرهای سیستم برای سازگاری با تم دارک و لایت */
   .activity-section { margin-top: 30px; }
   
   .activity-title { 
-    color: var(--primary-color, inherit); 
+    color: var(--primary-color, inherit); /* استفاده از رنگ اصلی تم */
     border-bottom: 2px solid var(--border-color, #ccc); 
     padding-bottom: 8px; 
     margin-bottom: 20px; 
@@ -25,30 +26,19 @@ author_profile: true
     padding-left: 15px; 
     border-left: 3px solid var(--border-color, #eee); 
     line-height: 1.6;
+    color: inherit; /* رنگ متن تابع تم اصلی باشد */
   }
 
-  /* استایل لینک‌ها برای حفظ رنگ تم و حذف خط زیرین پیش‌فرض */
-  .activity-list li a {
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.2s ease;
-  }
-
-  .activity-list li a:hover {
-    color: #007bff; /* تغییر رنگ به آبی هنگام نگه داشتن موس */
-    text-decoration: underline;
-  }
-
+  /* اصلاح Badge به رنگ آبی سازگار با هر دو تم */
   .badge { 
-    background: #007bff; 
-    color: #ffffff !important; 
+    background: #007bff; /* آبی استاندارد که در هر دو تم خواناست */
+    color: #ffffff !important; /* متن همیشه سفید بماند تا روی آبی خوانا باشد */
     padding: 2px 10px; 
     border-radius: 4px; 
     font-size: 0.85em; 
     font-weight: bold;
     display: inline-block;
     margin-bottom: 3px;
-    margin-right: 8px;
   }
 
   .badge-green {
@@ -58,43 +48,59 @@ author_profile: true
     border-radius: 4px;
     font-weight: bold;
   }
+
+  .conf-paper {
+    font-size: 0.95em;
+    opacity: 0.8; /* به جای رنگ ثابت، از شفافیت استفاده می‌کنیم تا در هر دو تم کار کند */
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+  }
 </style>
 
 <div class="activity-section">
   
   <h2 class="activity-title">A. Journal Editor</h2>
   <ul class="activity-list">
-    <li><a href="https://example.com/journal1" target="_blank">Spectrum of Engineering and Management Sciences</a></li>
-    <li><a href="https://example.com/journal2" target="_blank">Edu-Tech Enterprise</a></li>
-    <li><a href="https://example.com/journal3" target="_blank">Argumentation Based Systems Journal</a></li>
-    <li><a href="https://example.com/journal4" target="_blank">Journal of Expert Systems and Sustainable Development</a></li>
+    <li>Spectrum of Engineering and Management Sciences</li>
+    <li>Edu-Tech Enterprise</li>
+    <li>Argumentation Based Systems Journal</li>
+    <li>Journal of Expert Systems and Sustainable Development</li>
   </ul>
 
   <h2 class="activity-title">B. Program Committee Member</h2>
   <ul class="activity-list">
-    <li><a href="https://example.com/conf1" target="_blank">4th International Conference on Intelligent Systems and Applications (ICISA 2025)</a></li>
-    <li><a href="https://example.com/conf2" target="_blank">X International Scientific Conference of Transport and Communications (New Horizon 2025)</a></li>
-    <li><a href="https://example.com/conf3" target="_blank">1st International Conference on Intelligent Systems for Sustainability (ICISS 2024)</a></li>
-    <li><a href="https://example.com/conf4" target="_blank">3rd International Conference on Advances in Intelligent Systems for Sustainable Agriculture (ICISA 2024)</a></li>
-    <li><a href="https://example.com/conf5" target="_blank">2nd International Conference on Intelligent Systems for Smart Cities (ICISA 2023)</a></li>
-    <li><a href="https://example.com/conf6" target="_blank">1st International Conference on Intelligent Systems and Applications (ICISA 2022)</a></li>
+    <li>4th International Conference on Intelligent Systems and Applications (ICISA 2025)</li>
+    <li>X International Scientific Conference of Transport and Communications (New Horizon 2025)</li>
+    <li>1st International Conference on Intelligent Systems for Sustainability (ICISS 2024)</li>
+    <li>3rd International Conference on Advances in Intelligent Systems for Sustainable Agriculture (ICISA 2024)</li>
+    <li>2nd International Conference on Intelligent Systems for Smart Cities (ICISA 2023)</li>
+    <li>1st International Conference on Intelligent Systems and Applications (ICISA 2022)</li>
   </ul>
 
   <h2 class="activity-title">C. Participating in International Conferences</h2>
   <ul class="activity-list">
     <li>
-      <a href="https://example.com/cie52" target="_blank"><strong>The 52nd International Conference on Computers and Industrial Engineering (CIE52)</strong></a>, 29-31 October 2025. INSA Lyon, France.
+      <strong>The 52nd International Conference on Computers and Industrial Engineering (CIE52)</strong>, 29-31 October 2025. INSA Lyon, France.
+      <span class="conf-paper">Paper: A Scenario-based Stratified Base-Criterion Method for Assessing the Blockchain Technology Adoption Barriers in Retail Supply Chain.</span>
     </li>
   </ul>
 
   <h2 class="activity-title">D. Peer-Review Activities</h2>
   <p style="margin-bottom: 20px;">
-    <strong>Total reviews completed: <span class="badge-green">500+</span></strong> | Reviewer for <strong>70+ journals</strong>
+    <strong>Total reviews completed: <span class="badge-green">500+</span></strong> | 
+    Reviewer for <strong>70+ journals</strong>, including:
   </p>
   
   <ul class="activity-list">
-    <li><span class="badge">ABDC (A*) / ABS (3)</span> <a href="https://www.journals.elsevier.com/transportation-research-part-a-policy-and-practice" target="_blank">Transportation Research Part A: Policy and Practice</a></li>
-    <li><span class="badge">ABDC (A) / ABS (3)</span> <a href="#" target="_blank">Technological Forecasting & Social Changes</a>, <a href="#" target="_blank">Annals of Operations Research</a></li>
-    </ul>
+    <li><span class="badge-green">ABDC (A*) / ABS (3)</span> Transportation Research Part A: Policy and Practice</li>
+    <li><span class="badge">ABDC (A) / ABS (3)</span> Technological Forecasting & Social Changes, Annals of Operations Research, IEEE Transactions on Systems, Man, and Cybernetics</li>
+    <li><span class="badge">ABDC (A) / ABS (2)</span> Technology in Society, Computers & Industrial Engineering, Transport Policy, Journal of Enterprise Information Management</li>
+    <li><span class="badge">ABDC (B) / ABS (2)</span> Journal of Engineering and Technology Management</li>
+    <li><span class="badge">ABDC (B) / ABS (1)</span> International Journal of Productivity and Performance Management</li>
+    <li><span class="badge">ABDC (C) / ABS (1)</span> Expert Systems with Applications, OPSEARCH, Cybernetics and Systems</li>
+    <li><span class="badge">ABDC (B)</span> Clean Technologies and Environmental Policy, Economic Change and Restructuring, Applied Soft Computing</li>
+    <li><strong>Other top-ranked journals:</strong> Journal of Industrial Information Integration, Sustainable Cities and Society, Sustainable Production and Consumption, IEEE Transactions on Fuzzy Systems, Engineering Applications of Artificial Intelligence, etc.</li>
+  </ul>
 
 </div>
