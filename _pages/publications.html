@@ -18,23 +18,31 @@ author_profile: true
     <h2 style="margin-top: 50px; color: #333; border-bottom: 2px solid #333; padding-bottom: 10px;">{{ category[1].title }}</h2>
 
     {% comment %} 
-      ابتدا مقالات این دسته را فیلتر کرده و بر اساس سال (نزولی) مرتب می‌کنیم 
+      مرحله ۱: فیلتر کردن مقالات بر اساس دسته و مرتب‌سازی اولیه بر اساس سال
     {% endcomment %}
-    {% assign category_posts = site.publications | where: "category", category_id | sort: "year" | reverse %}
+    {% assign all_posts = site.publications | where: "category", category_id | sort: "year" | reverse %}
     
-    {% assign last_year = nil %}
+    {% comment %} 
+      استخراج سال‌های منحصر به فرد موجود در این دسته
+    {% endcomment %}
+    {% assign years = all_posts | map: 'year' | uniq %}
 
-    {% for post in category_posts %}
-      {% if post.year != last_year %}
-        <h3 style="margin-top: 40px; margin-bottom: 20px; font-size: 1.2em; color: #444; background: #f9f9f9; padding: 5px 15px; border-left: 5px solid #333;">
-          {{ post.year }}
-        </h3>
-        {% assign last_year = post.year %}
-      {% endif %}
+    {% for current_year in years %}
+      <h3 style="margin-top: 40px; margin-bottom: 20px; font-size: 1.2em; color: #444; background: #f9f9f9; padding: 5px 15px; border-left: 5px solid #333;">
+        {{ current_year }}
+      </h3>
+
+      {% comment %} 
+        مرحله ۲: فیلتر کردن مقالاتِ مربوط به همین سال و مرتب‌سازی بر اساس Priority
+      {% endcomment %}
+      {% assign year_posts = all_posts | where: "year", current_year | sort: "priority" %}
       
-      {% include archive-single.html %}
+      {% for post in year_posts %}
+        {% include archive-single.html %}
+      {% endfor %}
+      
     {% endfor %}
 
-    {% assign last_year = nil %}
+    {% assign years = nil %}
   {% endfor %}
 {% endif %}
