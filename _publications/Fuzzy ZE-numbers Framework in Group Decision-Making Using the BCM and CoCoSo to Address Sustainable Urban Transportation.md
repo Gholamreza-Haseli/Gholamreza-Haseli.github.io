@@ -1,5 +1,5 @@
 ---
-priority: 8
+priority: 6
 title: "Fuzzy ZE-numbers Framework in Group Decision-Making Using the BCM and CoCoSo to Address Sustainable Urban Transportation"
 collection: publications
 category: manuscripts
