@@ -5,12 +5,24 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+{% if site.book_category %}
+  {% for category in site.book_category %}
+    {% assign category_id = category[0] %}
+    {% assign category_title = category[1].title %}
+    {% assign title_shown = false %}
+    
+    {% assign sorted_talks = site.talks | sort: "priority" %}
+    
+    {% for post in sorted_talks %}
+      {% if post.category == category_id %}
+        {% unless title_shown %}
+          <h2 style="margin-top: 40px;">{{ category_title }}</h2><hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 {% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
