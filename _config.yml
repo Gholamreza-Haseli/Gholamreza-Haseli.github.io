@@ -90,9 +90,9 @@ publication_category:
     title: 'Conference Papers'
 talks_category:
   books:
-    title: 'Books'
+    title: "Books"
   chapters:
-    title: 'Book Chapters'
+    title: "Book Chapters"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
