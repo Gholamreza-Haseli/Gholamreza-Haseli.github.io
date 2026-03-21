@@ -5,7 +5,7 @@ collection: publications
 category: manuscripts
 year: 2022
 permalink: /publication/Extended-Base-Criterion-Method-Based-on-the-Spherical-Fuzzy-Sets-to-Evaluate-Waste-Management
-excerpt: 'BHaseli, G., & Jafarzadeh Ghoushchi, S. (2022). &quot;Extended Base-Criterion Method Based on the Spherical Fuzzy Sets to Evaluate Waste Management.&quot; <i>[Soft Computing](https://link.springer.com/journal/500)</i>. 26(19), 9979-9992.'
+excerpt: 'Haseli, G., & Jafarzadeh Ghoushchi, S. (2022). &quot;Extended Base-Criterion Method Based on the Spherical Fuzzy Sets to Evaluate Waste Management.&quot; <i>[Soft Computing](https://link.springer.com/journal/500)</i>. 26(19), 9979-9992.'
 paperurl: 'https://link.springer.com/article/10.1007/s00500-022-07366-4'
 ---
 
