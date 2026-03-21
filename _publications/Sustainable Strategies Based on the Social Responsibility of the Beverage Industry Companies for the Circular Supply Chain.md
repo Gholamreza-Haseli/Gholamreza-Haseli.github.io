@@ -3,6 +3,7 @@ priority: 5
 title: "Sustainable Strategies Based on the Social Responsibility of the Beverage Industry Companies for the Circular Supply Chain"
 collection: publications
 category: manuscripts
+year: 2024
 permalink: /publication/Sustainable-Strategies-Based-on-the-Social-Responsibility-of-the-Beverage-Industry-Companies-for-the-Circular-Supply-Chain
 excerpt: 'Haseli, G., Nazarian-Jashnabadi, J., Shirazi, B., Hajiaghaei-Keshteli, M., & Moslem, S. (2024). &quot;Sustainable Strategies Based on the Social Responsibility of the Beverage Industry Companies for the Circular Supply Chain.&quot; <i>[Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)</i>. 133, 108253.'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0952197624004111'
