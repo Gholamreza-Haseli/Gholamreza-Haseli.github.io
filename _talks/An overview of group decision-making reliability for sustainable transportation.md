@@ -6,7 +6,7 @@ category: chapters
 permalink: /publication/An-overview-of-group-decision-making-reliability-for-sustainable-transportation
 excerpt: 'Haseli, G., Hajiaghaei-Keshteli, M., & Moslem, S. (2026). &quot;An overview of group decision-making reliability for sustainable transportation.&quot; <i>[Reliable Decision-Making for Sustainable Transportation](https://www.sciencedirect.com/book/edited-volume/9780443337406/reliable-decision-making-for-sustainable-transportation),</i>. Elsevier, 1-21.' 
 paperurl: 'https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443337406000025'
-cover: "/images/Transpo3.jpeg"
+cover: "/images/transpo3.jpeg"
 ---
 
 
