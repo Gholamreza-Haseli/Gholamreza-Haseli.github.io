@@ -3,6 +3,7 @@ priority: 8
 title: "Fuzzy ZE-numbers Framework in Group Decision-Making Using the BCM and CoCoSo to Address Sustainable Urban Transportation"
 collection: publications
 category: manuscripts
+year: 2024
 permalink: /publication/Fuzzy-ZE-numbers-Framework-in-Group-Decision-Making-Using-the-BCM-and-CoCoSo-to-Address-Sustainable-Urban-Transportation
 excerpt: 'Haseli, G., Bonab, S. R., Hajiaghaei-Keshteli, M., Ghoushchi, S. J., & Deveci, M. (2024). &quot;Fuzzy ZE-numbers Framework in Group Decision-Making Using the BCM and CoCoSo to Address Sustainable Urban Transportation.&quot; <i>[Information Sciences](https://www.sciencedirect.com/journal/information-sciences)</i>. 653, 119809.'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0020025523013944'
