@@ -3,6 +3,7 @@ priority: 7
 title: "An Extension of the Best–Worst Method Based on the Spherical Fuzzy Sets for Multi-Criteria Decision-Making"
 collection: publications
 category: manuscripts
+year: 2024
 permalink: /publication/An-Extension-of-the-Best–Worst-Method-Based-on-the-Spherical-Fuzzy-Sets-for-Multi-Criteria Decision-Making
 excerpt: 'Haseli, G., Sheikh, R., Ghoushchi, S. J., Hajiaghaei-Keshteli, M., Moslem, S., Deveci, M., & Kadry, S. (2024). &quot;An Extension of the Best–Worst Method Based on the Spherical Fuzzy Sets for Multi-Criteria Decision-Making.&quot; <i>[Granular Computing](https://link.springer.com/journal/41066)</i>. 9(2), 40.'
 paperurl: 'https://link.springer.com/article/10.1007/s41066-024-00462-w'
