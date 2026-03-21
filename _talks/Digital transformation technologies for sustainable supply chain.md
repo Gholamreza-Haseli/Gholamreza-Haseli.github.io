@@ -4,7 +4,7 @@ title: "Digital transformation technologies for sustainable supply chain"
 collection: talks
 category: chapters
 permalink: /publication/Digital-transformation-technologies-for-sustainable-supply-chain
-excerpt: 'Hasani, A., & Haseli, G. (2024). &quot;Digital transformation technologies for sustainable supply chain.&quot; <i>[Decision Support Systems for Sustainable Computing](https://www.sciencedirect.com/book/edited-volume/9780443235979/decision-support-systems-for-sustainable-computing)</i>.'
+excerpt: 'Hasani, A., & Haseli, G. (2024). &quot;Digital transformation technologies for sustainable supply chain.&quot; <i>[Decision Support Systems for Sustainable Computing](https://www.sciencedirect.com/book/edited-volume/9780443235979/decision-support-systems-for-sustainable-computing)</i>. Elsevier, 149-168'
 paperurl: 'https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B978044323597900007X'
 cover: "/images/deveci.jpeg"
 ---
