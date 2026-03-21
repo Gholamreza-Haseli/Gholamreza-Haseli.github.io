@@ -3,6 +3,7 @@ priority: 14
 title: "Logistic Autonomous Vehicles Assessment Using Decision Support Model Under Spherical Fuzzy Set Integrated Choquet Integral Approach"
 collection: publications
 category: manuscripts
+year: 2023
 permalink: /publication/Logistic-Autonomous-Vehicles-Assessment-Using-Decision-Support-Model-Under-Spherical-Fuzzy-Set-Integrated-Choquet-Integral-Approach
 excerpt: 'Bonab, S. R., Ghoushchi, S. J., Deveci, M., & Haseli, G. (2023). &quot;Logistic Autonomous Vehicles Assessment Using Decision Support Model Under Spherical Fuzzy Set Integrated Choquet Integral Approach.&quot; <i>[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)</i>. 214, 119205.'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0957417422022230'
