@@ -1,11 +1,24 @@
 <div class="{{ include.type | default: 'list' }}__item" style="border-bottom: 1px solid #eee; padding-bottom: 30px; margin-bottom: 30px;">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
+    {% comment %} 
+    تعیین سایز کاور بر اساس نوع محتوا:
+    اگر post.category برابر "books" باشد، سایز ۲۴۰ پیکسل،
+    در غیر این صورت (برای chapters)، سایز ۹۰ پیکسل.
+    {% endcomment %}
+    {% if post.category == "books" %}
+      {% assign cover_width = "240px" %}
+      {% assign cover_flex = "0 0 240px" %}
+    {% else %}
+      {% assign cover_width = "90px" %}
+      {% assign cover_flex = "0 0 90px" %}
+    {% endif %}
+
     <div class="book-container" style="display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap;">
       
       {% if post.cover %}
-        <div class="book-cover" style="flex: 0 0 240px; max-width: 100%; margin-top: 5px;">
-          <img src="{{ base_path }}{{ post.cover }}" alt="Cover: {{ post.title }}" style="width: 100%; height: auto; border-radius: 6px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); border: 1px solid #ddd; display: block;">
+        <div class="book-cover" style="flex: {{ cover_flex }}; max-width: 100%; margin-top: 5px;">
+          <img src="{{ base_path }}{{ post.cover }}" alt="Cover: {{ post.title }}" style="width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.12); border: 1px solid #ddd; display: block;">
         </div>
       {% endif %}
 
@@ -17,7 +30,7 @@
 
         {% if post.excerpt %}
           <div class="archive__item-excerpt" itemprop="description" style="margin-top: 0 !important; margin-bottom: 0 !important;">
-            <p style="margin: 0 !important; line-height: 1.5 !important; font-size: 1.16em;">
+            <p style="margin: 0 !important; line-height: 1.5 !important; font-size: 1.1em !important; color: #333;">
               {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
             </p>
           </div>
@@ -26,7 +39,7 @@
         {% if post.paperurl %}
           <p style="margin-top: 15px !important; margin-bottom: 0 !important;">
             <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 6px 14px !important; font-size: 0.85em !important; border-radius: 4px !important;">
-              <i class="fas fa-fw fa-download" aria-hidden="true"></i> Download / View Book
+              <i class="fas fa-fw fa-download" aria-hidden="true"></i> Download / View
             </a>
           </p>
         {% endif %}
