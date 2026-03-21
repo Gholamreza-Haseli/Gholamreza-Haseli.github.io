@@ -6,7 +6,7 @@ category: chapters
 permalink: /publication/Base-Criterion-Method-(BCM)
 excerpt: 'Haseli, G., & Sheikh, R. (2022). &quot;Base Criterion Method (BCM).&quot; <i>[Multiple criteria decision making: Techniques, Analysis and Applications](https://link.springer.com/book/10.1007/978-981-16-7414-3)</i>. Springer Nature Singapore, 17-38.'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-981-16-7414-3_2'
-cover: "/images/anand.jpeg"
+cover: "/images/anand.jpg"
 ---
 
 
