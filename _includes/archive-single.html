@@ -1,7 +1,7 @@
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title" itemprop="headline" style="margin-bottom: 4px !important; padding-bottom: 0 !important;">
+    <h2 class="archive__item-title" itemprop="headline" style="margin-bottom: 2px !important; padding-bottom: 0 !important;">
       <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none;">{{ post.title }}</a>
     </h2>
 
@@ -15,7 +15,7 @@
 
     {% if post.paperurl %}
       <p style="margin-top: 5px !important; margin-bottom: 10px !important;">
-        <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 4px 5px !important; font-size: 0.8em !important; border-radius: 4px !important;">
+        <a href="{{ post.paperurl }}" class="btn btn--primary" style="padding: 4px 10px !important; font-size: 0.8em !important; border-radius: 4px !important;">
           <i class="fas fa-fw fa-download" aria-hidden="true"></i> Download Paper
         </a>
       </p>
