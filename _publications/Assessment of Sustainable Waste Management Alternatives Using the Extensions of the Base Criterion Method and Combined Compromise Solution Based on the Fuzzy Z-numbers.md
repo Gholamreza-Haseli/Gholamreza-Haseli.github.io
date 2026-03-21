@@ -3,6 +3,7 @@ priority: 11
 title: "Assessment of Sustainable Waste Management Alternatives Using the Extensions of the Base Criterion Method and Combined Compromise Solution Based on the Fuzzy Z-numbers"
 collection: publications
 category: manuscripts
+year: 2023
 permalink: /publication/Assessment-of-Sustainable-Waste-Management-Alternatives-Using-the-Extensions-of-the-Base-Criterion-Method-and-Combined-Compromise-Solution-Based-on-the-Fuzzy-Z-numbers
 excerpt: 'Zafaranlouei, N., Ghoushchi, S. J., & Haseli, G. (2023). &quot;Assessment of Sustainable Waste Management Alternatives Using the Extensions of the Base Criterion Method and Combined Compromise Solution Based on the Fuzzy Z-numbers.&quot; <i>[Environmental Science and Pollution Research](https://link.springer.com/journal/11356)</i>. 30(22), 62121-62136.'
 paperurl: 'https://link.springer.com/article/10.1007/s11356-023-26380-z'
