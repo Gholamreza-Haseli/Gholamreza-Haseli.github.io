@@ -3,7 +3,7 @@ priority: 19
 title: "A Novel Approach for Group Decision Making Based on the Best–Worst Method (G-BWM): Application to Supply Chain Management"
 collection: publications
 category: manuscripts
-year: 2022
+year: 2021
 permalink: /publication/A-Novel-Approach-for-Group-Decision-Making-Based-on-the-Best–Worst-Method-(G-BWM):-Application-to-Supply-Chain-Management
 excerpt: 'Haseli, G., Sheikh, R., Wang, J., Tomaskova, H., & Tirkolaee, E. B. (2021). &quot;A Novel Approach for Group Decision Making Based on the Best–Worst Method (G-BWM): Application to Supply Chain Management.&quot; <i>[Mathematics](https://www.mdpi.com/journal/mathematics)</i>. 9(16), 1881.'
 paperurl: 'https://www.mdpi.com/2227-7390/9/16/1881'
