@@ -1,9 +1,34 @@
 ---
 layout: archive
-title: "Talk map"
-permalink: /talkmap.html
+title: "Books & Book Chapters"
+permalink: /talks/
 author_profile: true
 ---
 
-<p>This map is generated from a Jupyter Notebook file in <a href="https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb">talkmap.ipynb</a>, which mines the location fields in the .md files in _talks/.</p>
-<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+{% include base_path %}
+
+{% if site.book_category %}
+  {% for category in site.book_category %}
+    {% assign title_shown = false %}
+    
+    {% assign sorted_talks = site.talks | sort: "priority" %}
+    
+    {% for post in sorted_talks %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      
+      {% unless title_shown %}
+        <h2 style="margin-top: 40px;">{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      
+      {% include archive-single-talk.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% assign sorted_talks = site.talks | sort: "priority" %}
+  {% for post in sorted_talks %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% endif %}
