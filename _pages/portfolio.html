@@ -8,12 +8,54 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .activity-section { margin-top: 40px; }
-  .activity-title { color: #333; border-bottom: 2px solid #333; padding-bottom: 8px; margin-bottom: 20px; }
+  /* استفاده از متغیرهای سیستم برای سازگاری با تم دارک و لایت */
+  .activity-section { margin-top: 30px; }
+  
+  .activity-title { 
+    color: var(--primary-color, inherit); /* استفاده از رنگ اصلی تم */
+    border-bottom: 2px solid var(--border-color, #ccc); 
+    padding-bottom: 8px; 
+    margin-bottom: 20px; 
+    font-size: 1.5em;
+  }
+  
   .activity-list { list-style-type: none; padding-left: 0; }
-  .activity-list li { margin-bottom: 12px; padding-left: 15px; border-left: 3px solid #eee; }
-  .sub-category { font-weight: bold; color: #444; margin: 25px 0 15px 0; display: block; font-size: 1.1em; }
-  .badge { background: #f0f0f0; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; font-weight: bold; }
+  
+  .activity-list li { 
+    margin-bottom: 12px; 
+    padding-left: 15px; 
+    border-left: 3px solid var(--border-color, #eee); 
+    line-height: 1.6;
+    color: inherit; /* رنگ متن تابع تم اصلی باشد */
+  }
+
+  /* اصلاح Badge به رنگ آبی سازگار با هر دو تم */
+  .badge { 
+    background: #007bff; /* آبی استاندارد که در هر دو تم خواناست */
+    color: #ffffff !important; /* متن همیشه سفید بماند تا روی آبی خوانا باشد */
+    padding: 2px 10px; 
+    border-radius: 4px; 
+    font-size: 0.85em; 
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+
+  .badge-green {
+    background: #28a745;
+    color: #ffffff !important;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .conf-paper {
+    font-size: 0.95em;
+    opacity: 0.8; /* به جای رنگ ثابت، از شفافیت استفاده می‌کنیم تا در هر دو تم کار کند */
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+  }
 </style>
 
 <div class="activity-section">
@@ -38,17 +80,20 @@ author_profile: true
 
 
   <h2 class="activity-title">C. Peer-Review Activities</h2>
-  <p><strong>Total reviews completed: <span class="badge">500+</span></strong> | Reviewer for <strong>70+ journals</strong>, including:</p>
+  <p style="margin-bottom: 20px;">
+    <strong>Total reviews completed: <span class="badge-green">500+</span></strong> | 
+    Reviewer for <strong>70+ journals</strong>, including:
+  </p>
   
   <ul class="activity-list">
-    <li><span class="badge">ABDC (A*) / ABS (3)</span> '[Transportation Research Part A: Policy and Practice](https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice)'</li>
+    <li><span class="badge">ABDC (A*) / ABS (3)</span> Transportation Research Part A: Policy and Practice</li>
     <li><span class="badge">ABDC (A) / ABS (3)</span> Technological Forecasting & Social Changes, Annals of Operations Research, IEEE Transactions on Systems, Man, and Cybernetics</li>
     <li><span class="badge">ABDC (A) / ABS (2)</span> Technology in Society, Computers & Industrial Engineering, Transport Policy, Journal of Enterprise Information Management</li>
     <li><span class="badge">ABDC (B) / ABS (2)</span> Journal of Engineering and Technology Management</li>
     <li><span class="badge">ABDC (B) / ABS (1)</span> International Journal of Productivity and Performance Management</li>
     <li><span class="badge">ABDC (C) / ABS (1)</span> Expert Systems with Applications, OPSEARCH, Cybernetics and Systems</li>
     <li><span class="badge">ABDC (B)</span> Clean Technologies and Environmental Policy, Economic Change and Restructuring, Applied Soft Computing</li>
-    <li><strong>Top-Ranked Journals:</strong> Journal of Industrial Information Integration, Sustainable Cities and Society, Sustainable Production and Consumption, IEEE Transactions on Fuzzy Systems, Engineering Applications of Artificial Intelligence, etc.</li>
+    <li><strong>Other top-ranked journals:</strong> Journal of Industrial Information Integration, Sustainable Cities and Society, Sustainable Production and Consumption, IEEE Transactions on Fuzzy Systems, Engineering Applications of Artificial Intelligence, etc.</li>
   </ul>
 
 </div>
