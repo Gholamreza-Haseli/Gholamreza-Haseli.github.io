@@ -2,7 +2,7 @@
 priority: 1
 title: "Encyclopedia of Multi-Attribute Decision Making (MADM)"
 collection: talks
-category: book
+category: books
 permalink: /publication/Encyclopedia-of-Multi-Attribute-Decision-Making-(MADM)
 excerpt: 'Haseli, G., Deveci, M., & Hajiaghaei-Keshteli, M. (2026). &quot;Encyclopedia of Multi-Attribute Decision Making (MADM).&quot; <i>[Elsevier](https://shop.elsevier.com/books/encyclopedia-of-multi-attribute-decision-making-madm/haseli/978-0-443-33275-3)</i>.'
 paperurl: 'https://shop.elsevier.com/books/encyclopedia-of-multi-attribute-decision-making-madm/haseli/978-0-443-33275-3'
