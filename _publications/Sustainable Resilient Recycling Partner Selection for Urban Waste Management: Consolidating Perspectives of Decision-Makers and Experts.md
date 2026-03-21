@@ -3,6 +3,7 @@ priority: 12
 title: "Sustainable Resilient Recycling Partner Selection for Urban Waste Management: Consolidating Perspectives of Decision-Makers and Experts"
 collection: publications
 category: manuscripts
+year: 2023
 permalink: /publication/Sustainable-Resilient-Recycling-Partner-Selection-for-Urban-Waste-Management:-Consolidating-Perspectives-of-Decision-Makers-and-Experts
 excerpt: 'Haseli, G., Torkayesh, A. E., Hajiaghaei-Keshteli, M., & Venghaus, S. (2023). &quot;Sustainable Resilient Recycling Partner Selection for Urban Waste Management: Consolidating Perspectives of Decision-Makers and Experts.&quot; <i>[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)</i>. 137, 110120.'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1568494623001382'
