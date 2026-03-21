@@ -1,22 +1,5 @@
 {% include base_path %}
-<style>
-  /* بزرگ کردن آیکون‌ها و متن‌های سایدبار */
-  .author__urls.social-icons li {
-    font-size: 1.15em !important; /* بزرگ کردن کل ردیف */
-    margin-bottom: 8px !important; /* فاصله بیشتر بین ردیف‌ها */
-  }
 
-  .author__urls.social-icons li i, 
-  .author__urls.social-icons li svg {
-    width: 1.4em !important; /* عریض‌تر کردن فضای آیکون برای تراز شدن */
-    font-size: 1.2em !important; /* بزرگ کردن خودِ آیکون */
-    color: #333 !important; /* تیره کردن رنگ آیکون برای وضوح بیشتر */
-  }
-
-  .author__urls.social-icons li a {
-    text-decoration: none !important;
-  }
-</style>
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
