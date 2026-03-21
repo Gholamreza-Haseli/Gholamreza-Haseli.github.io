@@ -1,6 +1,6 @@
 ---
 title: "Reliable Decision-Making for Sustainable Transportation"
-collection: publications
+collection: talks
 category: book
 permalink: /publication/Reliable-Decision-Making-for-Sustainable-Transportation
 excerpt: 'Haseli, G., Hajiaghaei-Keshteli, M., & Moslem, S. (2025). &quot;Reliable Decision-making for Sustainable Transportation.&quot; <i>[Elsevier](https://www.sciencedirect.com/book/edited-volume/9780443337406/reliable-decision-making-for-sustainable-transportation)</i>.'
