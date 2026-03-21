@@ -7,22 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.book_category %}
-  {% for category in site.book_category %}
-    {% assign category_id = category[0] %}
-    {% assign category_title = category[1].title %}
-    {% assign title_shown = false %}
-    
-    {% assign sorted_talks = site.talks | sort: "priority" %}
-    
-    {% for post in sorted_talks %}
-      {% if post.category == category_id %}
-        {% unless title_shown %}
-          <h2 style="margin-top: 40px;">{{ category_title }}</h2><hr />
-          {% assign title_shown = true %}
-        {% endunless %}
-        {% include archive-single-talk.html %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% endif %}
+{% assign all_talks = site.talks | sort: "priority" %}
+
+<h2 style="margin-top: 40px;">Books</h2><hr />
+{% for post in all_talks %}
+  {% if post.category == "books" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+<h2 style="margin-top: 60px;">Book Chapters</h2><hr />
+{% for post in all_talks %}
+  {% if post.category == "chapters" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
