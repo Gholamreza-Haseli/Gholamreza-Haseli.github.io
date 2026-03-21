@@ -3,6 +3,7 @@ priority: 6
 title: "Evaluation of Sustainable Cold Chain Suppliers Using a Combined Multi-Criteria Group Decision-Making Framework Under Fuzzy ZE-numbers"
 collection: publications
 category: manuscripts
+year: 2024
 permalink: /publication/Evaluation-of-Sustainable-Cold-Chain-Suppliers-Using-a-Combined-Multi-Criteria-Group-Decision-Making-Framework-Under-Fuzzy-ZE-numbers
 excerpt: 'Ecer, F., Haseli, G., Krishankumar, R., & Hajiaghaei-Keshteli, M. (2024). &quot;Evaluation of Sustainable Cold Chain Suppliers Using a Combined Multi-Criteria Group Decision-Making Framework Under Fuzzy ZE-numbers.&quot; <i>[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)</i>. 245, 123063.'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0957417423035650'
