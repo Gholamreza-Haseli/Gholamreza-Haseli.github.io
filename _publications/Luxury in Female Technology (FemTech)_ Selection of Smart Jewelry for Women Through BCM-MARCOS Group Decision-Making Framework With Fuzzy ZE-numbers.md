@@ -3,6 +3,7 @@ priority: 10
 title: "Luxury in Female Technology (FemTech): Selection of Smart Jewelry for Women Through BCM-MARCOS Group Decision-Making Framework With Fuzzy ZE-numbers"
 collection: publications
 category: manuscripts
+year: 2023
 permalink: /publication/Luxury-in-Female-Technology-(FemTech):-Selection-of-Smart-Jewelry-for-Women-Through-BCM-MARCOS-Group-Decision-Making-Framework-With-Fuzzy-ZE-numbers
 excerpt: 'Haseli, G., Ögel, İ. Y., Ecer, F., & Hajiaghaei-Keshteli, M. (2023). &quot;Luxury in Female Technology (FemTech): Selection of Smart Jewelry for Women Through BCM-MARCOS Group Decision-Making Framework With Fuzzy ZE-numbers.&quot; <i>[Technological Forecasting and Social Change](https://www.sciencedirect.com/journal/technological-forecasting-and-social-change)</i>. 196, 122870.'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0040162523005553'
