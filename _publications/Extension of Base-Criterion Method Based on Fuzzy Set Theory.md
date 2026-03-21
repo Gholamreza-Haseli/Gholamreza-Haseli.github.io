@@ -5,7 +5,7 @@ collection: publications
 category: manuscripts
 year: 2020
 permalink: /publication/Extension-of-Base-Criterion-Method-Based-on-Fuzzy-Set-Theory
-excerpt: 'Bonab, S. R., Haseli, G., Rajabzadeh, H., Ghoushchi, S. J., Hajiaghaei-Keshteli, M., & Tomášková, H. (2023). &quot;Extension of Base-Criterion Method Based on Fuzzy Set Theory.&quot; <i>[International Journal of Applied and Computational Mathematics](https://link.springer.com/journal/40819)</i>. 6(2), 54.'
+excerpt: 'Haseli, G., Sheikh, R., & Sana, S. S. (2020). &quot;Extension of Base-Criterion Method Based on Fuzzy Set Theory.&quot; <i>[International Journal of Applied and Computational Mathematics](https://link.springer.com/journal/40819)</i>. 6(2), 54.'
 paperurl: 'https://link.springer.com/article/10.1007/s40819-020-00807-4'
 ---
 
