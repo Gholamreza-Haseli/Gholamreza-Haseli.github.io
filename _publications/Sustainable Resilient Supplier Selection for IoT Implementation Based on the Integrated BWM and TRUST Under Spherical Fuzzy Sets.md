@@ -2,7 +2,7 @@
 priority: 15
 title: "Sustainable Resilient Supplier Selection for IoT Implementation Based on the Integrated BWM and TRUST Under Spherical Fuzzy Sets"
 collection: publications
-category: manuscript
+category: manuscripts
 year: 2023
 permalink: /publication/Sustainable-Resilient-Supplier-Selection-for-IoT-Implementation-Based-on-the-Integrated-BWM-and-TRUST-Under-Spherical-Fuzzy-Sets
 excerpt: 'Bonab, S. R., Haseli, G., Rajabzadeh, H., Ghoushchi, S. J., Hajiaghaei-Keshteli, M., & Tomášková, H. (2023). &quot;Sustainable Resilient Supplier Selection for IoT Implementation Based on the Integrated BWM and TRUST Under Spherical Fuzzy Sets.&quot; <i>[Decision Making: Applications in Management and Engineering](https://dmame-journal.org/index.php/dmame/issue/view/14)</i>. volume 6, issue: 1.'
