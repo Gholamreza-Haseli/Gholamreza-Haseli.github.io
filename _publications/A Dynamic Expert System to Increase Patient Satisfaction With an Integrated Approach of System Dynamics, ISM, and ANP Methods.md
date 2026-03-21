@@ -3,6 +3,7 @@ priority: 9
 title: "A Dynamic Expert System to Increase Patient Satisfaction With an Integrated Approach of System Dynamics, ISM, and ANP Methods"
 collection: publications
 category: manuscripts
+year: 2023
 permalink: /publication/A-Dynamic-Expert-System-to-Increase-Patient-Satisfaction-With-an-Integrated-Approach-of-System-Dynamics,-ISM,-and-ANP-Methods
 excerpt: 'Nazarian-Jashnabadi, J., Bonab, S. R., Haseli, G., Tomaskova, H., & Hajiaghaei-Keshteli, M. (2023). &quot;A Dynamic Expert System to Increase Patient Satisfaction With an Integrated Approach of System Dynamics, ISM, and ANP Methods.&quot; <i>[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)</i>. 234, 121010.'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0957417423015129'
