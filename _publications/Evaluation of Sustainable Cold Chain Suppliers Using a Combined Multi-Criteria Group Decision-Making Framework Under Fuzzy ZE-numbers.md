@@ -1,5 +1,5 @@
 ---
-priority: 6
+priority: 7
 title: "Evaluation of Sustainable Cold Chain Suppliers Using a Combined Multi-Criteria Group Decision-Making Framework Under Fuzzy ZE-numbers"
 collection: publications
 category: manuscripts
