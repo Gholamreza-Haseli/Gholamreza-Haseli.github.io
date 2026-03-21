@@ -3,6 +3,7 @@ priority: 2
 title: "Evaluation of Sustainable Strategies for Implementing Blockchain Technology in the Solar Energy Supply Chain Under Fuzzy ZE-numbers"
 collection: publications
 category: manuscripts
+year: 2026
 permalink: /publication/Evaluation-of-Sustainable-Strategies-for-Implementing-Blockchain-Technology-in-the-Solar-Energy-Supply-Chain-Under-Fuzzy-ZE-numbers
 excerpt: 'Abdollahi, S., Ghoushchi, S. J., & Haseli, G. (2026). &quot;Evaluation of Sustainable Strategies for Implementing Blockchain Technology in the Solar Energy Supply Chain Under Fuzzy ZE-numbers.&quot; <i>[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)</i>. 189, 114522.'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1568494625018356'
