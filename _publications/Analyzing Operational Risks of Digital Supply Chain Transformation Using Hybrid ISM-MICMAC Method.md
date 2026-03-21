@@ -3,6 +3,7 @@ priority: 4
 title: "Analyzing Operational Risks of Digital Supply Chain Transformation Using Hybrid ISM-MICMAC Method"
 collection: publications
 category: manuscripts
+year: 2025
 permalink: /publication/Analyzing-Operational-Risks-of-Digital-Supply-Chain-Transformation-Using-Hybrid-ISM-MICMAC-Method
 excerpt: 'Hasani, A., Haseli, G., & Deveci, M. (2025). &quot;Analyzing Operational Risks of Digital Supply Chain Transformation Using Hybrid ISM-MICMAC Method.&quot; <i>[OPSEARCH](https://link.springer.com/journal/12597)</i>. 62(2), 583-607.'
 paperurl: 'https://link.springer.com/article/10.1007/s12597-024-00792-y'
