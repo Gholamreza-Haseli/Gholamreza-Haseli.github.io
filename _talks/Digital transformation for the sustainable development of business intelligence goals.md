@@ -2,7 +2,7 @@
 priority: 3
 title: "Digital transformation for the sustainable development of business intelligence goals"
 collection: talks
-category: books
+category: chapters
 permalink: /publication/Digital-transformation-for-the-sustainable-development-of-business-intelligence-goals
 excerpt: 'Nazarian-Jashnabadi, J., Haseli, G., & Tomaskova, H. (2024). &quot;Digital transformation for the sustainable development of business intelligence goals.&quot; <i>[Decision Support Systems for Sustainable Computing](https://www.sciencedirect.com/book/edited-volume/9780443235979/decision-support-systems-for-sustainable-computing)</i>. Elsevier, 169-186'
 paperurl: 'https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443235979000081'
