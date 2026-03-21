@@ -1,5 +1,5 @@
 ---
-priority: 7
+priority: 8
 title: "An Extension of the Best–Worst Method Based on the Spherical Fuzzy Sets for Multi-Criteria Decision-Making"
 collection: publications
 category: manuscripts
