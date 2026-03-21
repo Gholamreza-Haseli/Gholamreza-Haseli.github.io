@@ -3,6 +3,7 @@ priority: 3
 title: "Logistic Hub Location Problem Under Fuzzy Extended Z-numbers to Consider the Uncertainty and Reliable Group Decision-Making"
 collection: publications
 category: manuscripts
+year: 2025
 permalink: /publication/Logistic-Hub-Location-Problem-Under-Fuzzy-Extended-Z-numbers-to-Consider-the-Uncertainty-and-Reliable-Group-Decision-Making
 excerpt: 'Haseli, G., Yazdani, M., Shaayesteh, M. T., & Hajiaghaei-Keshteli, M. (2025). &quot;Logistic Hub Location Problem Under Fuzzy Extended Z-numbers to Consider the Uncertainty and Reliable Group Decision-Making.&quot; <i>[Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing)</i>. 171, 112751.'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1568494625000626'
