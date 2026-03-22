@@ -8,55 +8,98 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  /* استفاده از متغیرهای سیستم برای سازگاری با تم دارک و لایت */
   .activity-section { margin-top: 30px; }
   
-  .activity-title { 
-    color: var(--primary-color, inherit); /* استفاده از رنگ اصلی تم */
-    border-bottom: 2px solid var(--border-color, #ccc); 
-    padding-bottom: 8px; 
-    margin-bottom: 20px; 
-    font-size: 1.5em;
-  }
-  
-  .activity-list { list-style-type: none; padding-left: 0; }
-  
-  .activity-list li { 
-    margin-bottom: 12px; 
-    padding-left: 15px; 
-    border-left: 3px solid var(--border-color, #eee); 
-    line-height: 1.6;
-    color: inherit; /* رنگ متن تابع تم اصلی باشد */
-  }
-
-  /* اصلاح Badge به رنگ آبی سازگار با هر دو تم */
-  .badge { 
-    background: #007bff; /* آبی استاندارد که در هر دو تم خواناست */
-    color: #ffffff !important; /* متن همیشه سفید بماند تا روی آبی خوانا باشد */
-    padding: 2px 10px; 
-    border-radius: 4px; 
-    font-size: 0.85em; 
-    font-weight: bold;
-    display: inline-block;
-    margin-bottom: 3px;
-  }
-
-  .badge-green {
-    background: #28a745;
-    color: #ffffff !important;
-    padding: 2px 10px;
+  /* استایل باکس‌های اصلی (سرمه‌ای) */
+  .main-header-box {
+    background-color: #0d1b3e;
+    color: #f2e3c2;
+    padding: 10px 15px;
     border-radius: 4px;
+    margin-bottom: 20px;
+    border-left: 6px solid #d4af37;
+    font-size: 1.3em;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 
-  .conf-paper {
+  /* استایل باکس‌های زیرمجموعه/پروژه (طلایی) */
+  .sub-project-box {
+    background-color: #f2e3c2;
+    color: #0d1b3e;
+    padding: 8px 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    border: 1px solid #d4af37;
+  }
+
+  .activity-list { list-style-type: none; padding-left: 0; }
+  .activity-list li { margin-bottom: 25px; padding-left: 0; list-style: none; }
+  
+  .project-content {
+    padding: 12px 15px;
+    border: 1px solid var(--border-color, #eee);
+    border-top: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
     font-size: 0.95em;
-    opacity: 0.8; /* به جای رنگ ثابت، از شفافیت استفاده می‌کنیم تا در هر دو تم کار کند */
-    display: block;
-    margin-top: 5px;
-    font-style: italic;
+    line-height: 1.6;
   }
 </style>
+
+<div class="activity-section">
+  
+  <div class="main-header-box">A. Journal Editor</div>
+  <ul class="activity-list">
+    <li style="padding-left: 15px; border-left: 3px solid #eee;">
+      Spectrum of Engineering and Management Sciences<br>
+      Edu-Tech Enterprise<br>
+      Argumentation Based Systems Journal<br>
+      Journal of Expert Systems and Sustainable Development
+    </li>
+  </ul>
+
+  <div class="main-header-box">B. Program Committee Member</div>
+  <ul class="activity-list">
+    <li style="padding-left: 15px; border-left: 3px solid #eee;">
+      4th ICISA 2025 | X New Horizon 2025 | 1st ICISS 2024 | 3rd ICISA 2024 | 2nd ICISA 2023 | 1st ICISA 2022
+    </li>
+  </ul>
+
+  <div class="main-header-box">C. Research Projects</div>
+  <ul class="activity-list">
+    
+    <li>
+      <div class="sub-project-box">
+        <span style="font-weight: bold;">Project Member / Researcher</span>
+        <span style="font-size: 0.85em; font-weight: bold;">2022 - 2023</span>
+      </div>
+      <div class="project-content">
+        <strong>University College Dublin (UCD), Ireland</strong><br>
+        Funded by Science Foundation Ireland (SFI).
+      </div>
+    </li>
+
+    <li>
+      <div class="sub-project-box">
+        <span style="font-weight: bold;">Senior Research Assistant</span>
+        <span style="font-size: 0.85em; font-weight: bold;">2021 - 2022</span>
+      </div>
+      <div class="project-content">
+        <strong>University of Hradec Králové, Czech Republic</strong><br>
+        Focus: Advanced Production and Operations Management.
+      </div>
+    </li>
+  </ul>
+
+  <div class="main-header-box">D. Peer-Review Activities</div>
+  <p style="padding-left: 10px;"><strong>Total reviews: <span style="color: #28a745;">500+</span></strong> | 70+ journals</p>
+  </div>
+
 <h2 class="activity-title">C. Research Projects</h2>
   <ul class="activity-list" style="border-left: none; padding-left: 0;"> 
     
