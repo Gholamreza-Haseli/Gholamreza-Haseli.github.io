@@ -43,6 +43,8 @@ redirect_from:
     padding: 10px 15px;
     margin-bottom: 8px;
     font-size: 1.05em;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #d4af37;
     transition: all 0.3s ease;
   }
 
