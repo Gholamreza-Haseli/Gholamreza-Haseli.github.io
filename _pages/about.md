@@ -58,6 +58,8 @@ redirect_from:
     margin-right: 10px;
     width: 20px;
     text-align: center;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #d4af37;
   }
 </style>
 
