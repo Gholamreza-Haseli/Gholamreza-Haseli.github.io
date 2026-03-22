@@ -53,6 +53,18 @@ author_profile: true
     padding-bottom: 0px;
     border-bottom: 0px dashed var(--border-color, #eee);
   }
+    /* کلاس جدید: کاهش فاصله بین آیتم‌های مقاله */
+  .pub-item-wrapper {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+
+  /* کاهش فاصله قبل از خط جداکننده dashed */
+  .pub-item-wrapper + div {
+    margin-top: 0 !important;
+  }
 </style>
 
 {% if site.publication_category %}
