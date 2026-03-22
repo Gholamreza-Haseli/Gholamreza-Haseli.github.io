@@ -35,9 +35,6 @@ redirect_from:
     list-style: none;
     padding-left: 0;
     border-radius: 4px 4px 0 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border: 1px solid #d4af37;
     margin-top: 20px;
   }
