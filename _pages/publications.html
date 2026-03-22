@@ -54,11 +54,6 @@ author_profile: true
     padding-top: 0px !important;
     padding-bottom: 5px !important;
   }
-
-  /* کاهش فاصله قبل از خط جداکننده dashed */
-  .pub-item-wrapper + div {
-    margin-top: 0 !important;
-  }
   
 </style>
 
@@ -76,7 +71,7 @@ author_profile: true
 
       {% assign year_posts = all_posts | where: "year", current_year | sort: "priority" %}
       
-      <div style="margin-top: 1px;">
+      <div style="margin-top: -10px;">
         {% for post in year_posts %}
           <div class="pub-item-wrapper">
             {% include archive-single.html %}
