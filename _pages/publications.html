@@ -59,7 +59,7 @@ author_profile: true
 
       {% assign year_posts = all_posts | where: "year", current_year | sort: "priority" %}
       
-      <div style="margin-top: 15px;">
+      <div style="margin-top: 5px;">
         {% for post in year_posts %}
           <div class="pub-item-wrapper">
             {% include archive-single.html %}
