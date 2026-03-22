@@ -1,3 +1,56 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap" style="margin-bottom: 20px; padding: 10px; background: var(--receiver-msg-bg, #f9f9f9); border-radius: 4px; border-left: 4px solid #d4af37;">
+    You can also find my articles on <a href="{{site.author.googlescholar}}" target="_blank" style="font-weight: bold; color: #0d1b3e;">my Google Scholar profile</a>.
+  </div>
+{% endif %}
+
+{% include base_path %}
+
+<style>
+  /* استایل باکس سرمه‌ای برای دسته‌های اصلی (Journal/Conference) */
+  .poms-main-header {
+    background-color: #0d1b3e;
+    color: #f2e3c2;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin: 50px 0 25px 0;
+    border-left: 8px solid #d4af37;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  /* استایل باکس طلایی برای سال‌ها */
+  .poms-year-header {
+    background-color: #f2e3c2;
+    color: #0d1b3e;
+    padding: 6px 18px;
+    border-radius: 4px;
+    margin: 40px 0 20px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: inline-block; /* باکس فقط به اندازه متن سال کشیده شود */
+    border: 1px solid #d4af37;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  }
+
+  /* جداکننده ظریف بین مقالات */
+  .pub-item-wrapper {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--border-color, #eee);
+  }
+</style>
+
 <style>
   /* استایل باکس سرمه‌ای برای دسته‌های اصلی (Journal/Conference) */
   .poms-main-header {
