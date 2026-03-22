@@ -42,14 +42,13 @@ redirect_from:
   .interest-list li {
     padding: 10px 15px;
     margin-bottom: 8px;
-    border-radius: 4px;
-    border-left: 4px solid #f2e3c2;
     font-size: 1.05em;
     transition: all 0.3s ease;
   }
 
   .interest-list li:hover {
     transform: translateX(8px);
+    background-color: #d4af37;
     color: #0d1b3e;
     border-left-color: #0d1b3e;
   }
