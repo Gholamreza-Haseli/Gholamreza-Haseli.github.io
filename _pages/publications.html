@@ -6,40 +6,72 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap" style="margin-bottom: 20px; padding: 10px; background: var(--receiver-msg-bg, #f9f9f9); border-radius: 4px; border-left: 4px solid #d4af37;">
+    You can also find my articles on <a href="{{site.author.googlescholar}}" target="_blank" style="font-weight: bold; color: #0d1b3e;">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
+
+<style>
+  /* استایل باکس سرمه‌ای برای دسته‌های اصلی (Journal/Conference) */
+  .poms-main-header {
+    background-color: #0d1b3e;
+    color: #f2e3c2;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin: 50px 0 25px 0;
+    border-left: 8px solid #d4af37;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  /* استایل باکس طلایی برای سال‌ها */
+  .poms-year-header {
+    background-color: #f2e3c2;
+    color: #0d1b3e;
+    padding: 6px 18px;
+    border-radius: 4px;
+    margin: 40px 0 20px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: inline-block; /* باکس فقط به اندازه متن سال کشیده شود */
+    border: 1px solid #d4af37;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  }
+
+  /* جداکننده ظریف بین مقالات */
+  .pub-item-wrapper {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--border-color, #eee);
+  }
+</style>
 
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign category_id = category[0] %}
     
-    <h2 style="margin-top: 50px; color: #333; border-bottom: 2px solid #333; padding-bottom: 10px;">{{ category[1].title }}</h2>
+    <div class="poms-main-header">{{ category[1].title }}</div>
 
-    {% comment %} 
-      مرحله ۱: فیلتر کردن مقالات بر اساس دسته و مرتب‌سازی اولیه بر اساس سال
-    {% endcomment %}
     {% assign all_posts = site.publications | where: "category", category_id | sort: "year" | reverse %}
-    
-    {% comment %} 
-      استخراج سال‌های منحصر به فرد موجود در این دسته
-    {% endcomment %}
     {% assign years = all_posts | map: 'year' | uniq %}
 
     {% for current_year in years %}
-      <h3 style="margin-top: 40px; margin-bottom: 20px; font-size: 1.2em; color: #444; background: #f9f9f9; padding: 5px 15px; border-left: 5px solid #333;">
-        {{ current_year }}
-      </h3>
+      <div class="poms-year-header">{{ current_year }}</div>
 
-      {% comment %} 
-        مرحله ۲: فیلتر کردن مقالاتِ مربوط به همین سال و مرتب‌سازی بر اساس Priority
-      {% endcomment %}
       {% assign year_posts = all_posts | where: "year", current_year | sort: "priority" %}
       
-      {% for post in year_posts %}
-        {% include archive-single.html %}
-      {% endfor %}
+      <div style="margin-top: 10px;">
+        {% for post in year_posts %}
+          <div class="pub-item-wrapper">
+            {% include archive-single.html %}
+          </div>
+        {% endfor %}
+      </div>
       
     {% endfor %}
 
