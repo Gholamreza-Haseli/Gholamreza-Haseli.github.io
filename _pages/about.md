@@ -40,7 +40,6 @@ redirect_from:
   .interest-list li {
     padding: 10px 15px;
     margin-bottom: 8px;
-    background: var(--receiver-msg-bg, #f9f9f9);
     border-radius: 4px;
     border-left: 4px solid #f2e3c2;
     font-size: 1.05em;
