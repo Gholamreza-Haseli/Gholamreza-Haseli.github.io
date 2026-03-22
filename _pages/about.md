@@ -14,11 +14,11 @@ redirect_from:
     display: none !important;
   }
 
-  /* استایل باکس سرمه‌ای POMS برای تیترهای اصلی */
+  /* استایل باکس سرمه‌ای برای تیترهای اصلی */
   .poms-main-header {
     background-color: #0d1b3e;
     color: #f2e3c2;
-    padding: 12px 20px;
+    padding: 10px 20px;
     border-radius: 4px;
     margin: 10px 0 25px 0; /* فاصله کمتر برای تیتر اول */
     border-left: 8px solid #d4af37;
@@ -49,7 +49,6 @@ redirect_from:
 
   .interest-list li:hover {
     transform: translateX(8px);
-    background-color: #f2e3c2;
     color: #0d1b3e;
     border-left-color: #0d1b3e;
   }
