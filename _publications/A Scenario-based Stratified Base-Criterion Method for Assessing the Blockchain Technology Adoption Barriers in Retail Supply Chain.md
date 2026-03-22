@@ -2,7 +2,7 @@
 title: "A Scenario-based Stratified Base-Criterion Method for Assessing the Blockchain Technology Adoption Barriers in Retail Supply Chain"
 collection: publications
 category: conferences
-year: 2026
+year: 2025
 permalink: /publication/A-Scenario-based-Stratified-Base-Criterion-Method-for-Assessing-the-Blockchain-Technology-Adoption-Barriers-in-Retail-Supply-Chain
 excerpt: 'Haseli, G., Hajiaghaei-Keshteli, M., Deveci, M., & Tomaskova, H. (2026). &quot;A Scenario-based Stratified Base-Criterion Method for Assessing the Blockchain Technology Adoption Barriers in Retail Supply Chain.&quot; <i>[The 52nd International Conference on Computers & Industrial Engineering (CIE52)](https://www.cie2025.science/home)</i>. Lyon, France.'
 paperurl: 'https://academicpages.github.io/files/paper3.pdf'
