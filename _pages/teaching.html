@@ -8,13 +8,12 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  /* مخفی کردن تایتل پیش‌فرض */
   .page__title { display: none !important; }
 
-  /* باکس سرمه‌ای اصلی - قفل شده روی سرمه‌ای با متن طلایی در هر دو تم */
+  /* باکس سرمه‌ای اصلی POMS - رنگ متن ثابت برای خوانایی روی سرمه‌ای */
   .poms-main-header {
-    background-color: #0d1b3e !important; /* قفل پس‌زمینه سرمه‌ای */
-    color: #f2e3c2 !important; /* قفل متن طلایی */
+    background-color: #0d1b3e !important;
+    color: #f2e3c2 !important;
     padding: 12px 20px;
     border-radius: 4px;
     margin: 40px 0 20px 0;
@@ -22,51 +21,46 @@ author_profile: true
     font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    display: block;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
 
-  /* زیرعنوان‌های طلایی - قفل شده روی کرم با متن سرمه‌ای در هر دو تم */
+  /* زیرعنوان‌های طلایی - رنگ متن ثابت برای خوانایی روی کرم */
   .poms-sub-header {
-    background-color: #f2e3c2 !important; /* قفل پس‌زمینه کرم */
-    color: #0d1b3e !important; /* قفل متن سرمه‌ای */
+    background-color: #f2e3c2 !important;
+    color: #0d1b3e !important;
     padding: 8px 15px;
     border-radius: 4px;
     margin: 25px 0 15px 0;
     font-size: 1.1em;
     font-weight: bold;
     border-left: 5px solid #0d1b3e;
-    display: block;
   }
 
-  /* کارت هر درس - حل مشکل تصویر دوم */
+  /* کارت هر درس */
   .course-card {
     border-left: 3px solid var(--border-color, #eee);
     padding-left: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .course-name {
     font-weight: bold;
-    color: var(--primary-color) !important; /* نام درس خودکار تغییر کند */
+    color: var(--primary-color, #222);
     font-size: 1.1em;
     display: block;
   }
 
-  /* حل مشکل تصویر دوم: متن دانشگاه و سال‌ها که روی کرم قرار می‌گیرند */
-  .course-card small, 
-  .class-info,
-  .class-info li {
-    color: var(--primary-color) !important; /* متون را به متغیر قالب وصل کردم تا در تم مشکی سفید شوند */
-    opacity: 0.9;
+  /* اصلاح رنگ متن های کوچک و توضیحات در هر دو تم */
+  .course-card small, .class-info {
+    color: var(--primary-color) !important;
+    opacity: 0.8;
   }
 
-  /* باکس شرکای تجاری (Audi/VW) - در هر دو تم خوانا */
   .training-partner {
     display: inline-block;
-    background: rgba(212, 175, 55, 0.15) !important;
+    background: rgba(238, 191, 29, 0.15);
     color: #d4af37 !important;
-    padding: 2px 10px;
+    padding: 2px 8px;
     border-radius: 4px;
     font-size: 0.85em;
     font-weight: bold;
@@ -74,37 +68,40 @@ author_profile: true
     border: 1px solid #d4af37;
   }
 
-  .class-info li::before {
-    content: "• ";
-    color: #d4af37 !important;
+  .class-info {
+    font-size: 0.9em;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5px;
   }
 
-  /* بخش پایان‌نامه‌ها - حل مشکل تصویر اول */
+  .class-info li::before {
+    content: "• ";
+    color: #d4af37;
+    font-weight: bold;
+  }
+
+  /* بخش پایان‌نامه‌ها - استفاده از متغیر سیستمی برای پس‌زمینه */
   .thesis-card {
-    /* به جای سفید مطلق، از متغیر پس‌زمینه قالب استفاده می‌کنم که در تم مشکی تیره می‌شود */
-    background: var(--receiver-msg-bg, #fcfcfc) !important; 
+    background: var(--receiver-msg-bg, #fcfcfc) !important;
     border: 1px solid var(--border-color, #eee);
-    padding: 18px;
+    padding: 15px;
     border-radius: 6px;
     margin-bottom: 15px;
-    /* حل مشکل تصویر اول: متن پایان‌نامه‌ها در تم مشکی خودکار سفید شود */
-    color: var(--primary-color) !important; 
+    color: var(--primary-color);
   }
 
   .student-name {
-    color: #d4af37 !important; /* طلایی روی هر پس‌زمینه‌ای عالی است */
+    color: #d4af37 !important; /* تغییر به طلایی برای درخشش در هر دو تم */
     font-weight: bold;
     border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
     display: block;
-    font-size: 1.1em;
   }
   
-  /* اطمینان از سفید شدن متون تگ small داخل کارت پایان‌نامه در تم مشکی */
-  .thesis-card small {
-    color: var(--primary-color) !important;
-    opacity: 0.8;
+  .thesis-card strong {
+    color: var(--primary-color);
   }
 </style>
 
@@ -115,7 +112,9 @@ author_profile: true
   <span class="course-name">GI-6054.101 - Multi-Criteria Decision-Making</span>
   <small>Tecnologico de Monterrey, Mexico</small>
   <ul class="class-info">
-    <li>Spring 2025 (Class Size: 14) | Spring 2024 (15) | Fall 2023 (8)</li>
+    <li>Spring 2025 (Class Size: 14)</li>
+    <li>Spring 2024 (Class Size: 15)</li>
+    <li>Fall 2023 (Class Size: 8)</li>
   </ul>
 </div>
 
@@ -124,7 +123,22 @@ author_profile: true
   <span class="course-name">GI6057 - Sustainable Logistics</span>
   <small>Tecnologico de Monterrey, Mexico</small>
   <ul class="class-info">
-    <li>Spring 2025 (Class Size: 29) | Spring 2024 (27)</li>
+    <li>Spring 2025 (Class Size: 29)</li>
+    <li>Spring 2024 (Class Size: 27)</li>
+  </ul>
+</div>
+<div class="course-card">
+  <span class="course-name">GI6051 – Design of Experiments</span>
+  <small>Tecnologico de Monterrey, Mexico</small>
+  <ul class="class-info">
+    <li>Spring 2026 (Class Size: 30)</li>
+  </ul>
+</div>
+<div class="course-card">
+  <span class="course-name">Academic Research Design Focusing on Journals</span>
+  <small>Urmia University of Technology</small>
+  <ul class="class-info">
+    <li>Spring 2022 (Class Size: 4)</li>
   </ul>
 </div>
 
@@ -132,17 +146,40 @@ author_profile: true
 <div class="course-card">
   <span class="course-name">IN2009 - Improvement of an Adaptive Value Chain</span>
   <span class="training-partner">Training Partner: Audi, Mexico</span>
-  <small style="display:block; margin-top:5px;">Tecnologico de Monterrey, Mexico</small>
   <ul class="class-info">
-    <li>Spring 2026 (Class Size: 32) | Spring 2025 (31)</li>
+    <li>Spring 2026 (Class Size: 32)</li>
+    <li>Spring 2025 (Class Size: 31)</li>
   </ul>
 </div>
+
 <div class="course-card">
   <span class="course-name">IN3002 - Global Value Chains upon Disruption</span>
   <span class="training-partner">Training Partner: Volkswagen, Mexico</span>
-  <small style="display:block; margin-top:5px;">Tecnologico de Monterrey, Mexico</small>
   <ul class="class-info">
     <li>Fall 2025 (Class Size: 28)</li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <span class="course-name">IN2004 - Generation of Value with Data Analytics</span>
+  <span class="training-partner">Training Partner: Bimbo, Mexico</span>
+  <ul class="class-info">
+    <li>Fall 2024 (Class Size: 35)</li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <span class="course-name">IN1001 - Introduction to Data Science Projects</span>
+  <ul class="class-info">
+    <li>Spring 2025 (Class Size: 32)</li>
+  </ul>
+</div>
+
+<div class="course-card">
+  <span class="course-name">IN1003 - Intelligent Logistics Networks</span>
+  <ul class="class-info">
+    <li>Fall 2025 (Class Size: 26)</li>
+    <li>Fall 2024 (Class Size: 28)</li>
   </ul>
 </div>
 
