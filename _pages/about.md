@@ -22,7 +22,7 @@ redirect_from:
     border-radius: 4px;
     margin: -15px 0 10px 0; /* فاصله کمتر برای تیتر اول */
     border-left: 8px solid #d4af37;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
