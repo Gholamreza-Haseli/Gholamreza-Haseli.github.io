@@ -20,9 +20,9 @@ redirect_from:
     color: #f2e3c2;
     padding: 10px 20px;
     border-radius: 4px;
-    margin: 10px 0 25px 0; /* فاصله کمتر برای تیتر اول */
+    margin: 10px 0 10px 0; /* فاصله کمتر برای تیتر اول */
     border-left: 8px solid #d4af37;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
