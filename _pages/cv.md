@@ -1,3 +1,9 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+---
 <style>
 .page__title { display: none !important; }
 
