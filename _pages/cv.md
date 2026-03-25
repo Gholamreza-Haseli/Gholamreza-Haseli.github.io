@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,100 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<style>
+  /* مخفی کردن تایتل پیش‌فرض */
+  .page__title {
+    display: none !important;
+  }
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  /* باکس اصلی سرمه‌ای */
+  .poms-cv-header {
+    background-color: #0d1b3e;
+    color: #f2e3c2;
+    padding: 15px 25px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    border-left: 10px solid #d4af37;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  /* کارت دانلود PDF */
+  .cv-download-card {
+    display: flex;
+    align-items: center;
+    background: var(--receiver-msg-bg, #f9f9f9);
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  .cv-download-card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+  }
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  .pdf-icon {
+    font-size: 4em;
+    color: #0d1b3e;
+    margin-right: 25px;
+  }
+
+  .cv-info h3 {
+    margin: 0 0 10px 0;
+    color: #0d1b3e;
+  }
+
+  /* دکمه طلایی دانلود */
+  .btn-poms-gold {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #0d1b3e !important;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    border: 2px solid #0d1b3e;
+    transition: 0.3s;
+  }
+
+  .btn-poms-gold:hover {
+    background-color: #0d1b3e;
+    color: #f2e3c2 !important;
+    border-color: #d4af37;
+  }
+</style>
+
+<div class="poms-cv-header">Curriculum Vitae</div>
+
+<p style="font-size: 1.1em; line-height: 1.6;">
+  You can download my full Curriculum Vitae (CV) by clicking the button below. 
+  The document includes my detailed research experience, publications, editorial roles, and academic achievements.
+</p>
+
+<div class="cv-download-card">
+  <div class="pdf-icon">
+    <i class="fas fa-file-pdf"></i>
+  </div>
+  <div class="cv-info">
+    <h3>Full Academic CV</h3>
+    <p style="margin-bottom: 15px; opacity: 0.8;">Last updated: March 2026</p>
+    <a href="{{ base_path }}/files/Haseli_CV.pdf" class="btn-poms-gold" target="_blank">
+      <i class="fas fa-download"></i> Download PDF
+    </a>
+  </div>
+</div>
+
+<div style="margin-top: 50px; padding: 20px; border-left: 4px solid #0d1b3e; background: rgba(13, 27, 62, 0.05);">
+  <p style="font-style: italic; font-size: 0.9em;">
+    Note: For collaboration inquiries or detailed information regarding specific research projects, 
+    please feel free to reach out via email.
+  </p>
+</div>
