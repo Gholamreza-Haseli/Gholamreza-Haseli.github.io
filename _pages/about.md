@@ -64,83 +64,6 @@ redirect_from:
     border: 1px solid #d4af37;
   }
 </style>
-<style>
-  .sdg-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 15px;
-    margin-top: 20px;
-  }
-
-  .sdg-item {
-    text-align: center;
-    transition: transform 0.3s ease;
-    cursor: default;
-  }
-
-  .sdg-item:hover {
-    transform: scale(1.1);
-  }
-
-  .sdg-icon {
-    width: 80px;
-    height: 80px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2em;
-    margin: 0 auto 5px auto;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-
-  .sdg-count {
-    font-size: 0.85em;
-    color: var(--primary-color);
-    font-weight: bold;
-  }
-
-  /* رنگ‌های استاندارد SDG */
-  .sdg-12 { background-color: #bf8b2e; } /* Responsible Consumption */
-  .sdg-17 { background-color: #19486a; } /* Partnerships */
-  .sdg-9  { background-color: #f36d25; } /* Industry & Innovation */
-  .sdg-11 { background-color: #f99d26; } /* Sustainable Cities */
-  .sdg-8  { background-color: #a21942; } /* Decent Work */
-</style>
-
-<div class="poms-main-header" style="margin-top: 50px;">Research Impact: Sustainable Development Goals</div>
-
-<p style="margin-bottom: 25px;">My research contributes to several UN Sustainable Development Goals, specifically focusing on sustainable production and global partnerships.</p>
-
-<div class="sdg-container">
-  <div class="sdg-item">
-    <div class="sdg-icon sdg-12">12</div>
-    <div class="sdg-count">13 Documents</div>
-  </div>
-
-  <div class="sdg-item">
-    <div class="sdg-icon sdg-17">17</div>
-    <div class="sdg-count">10 Documents</div>
-  </div>
-
-  <div class="sdg-item">
-    <div class="sdg-icon sdg-9">9</div>
-    <div class="sdg-count">9 Documents</div>
-  </div>
-
-  <div class="sdg-item">
-    <div class="sdg-icon sdg-11">11</div>
-    <div class="sdg-count">8 Documents</div>
-  </div>
-
-  <div class="sdg-item">
-    <div class="sdg-icon sdg-8">8</div>
-    <div class="sdg-count">6 Documents</div>
-  </div>
-</div>
-<div class="poms-main-header">About Me</div>
 
 I am an early-career scholar in Engineering Management with strong experience in applied research on digital and sustainable engineering systems and in supervising students in project-based learning environments. My work bridges decision analytics, digital transformation, and strategic operations, with a particular focus on [Cloud Supply Chain as a Service](https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824). My research is oriented toward supporting managerial decision-making and strategy formulation in operations-intensive industries.
 
@@ -158,3 +81,101 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
   <li><i class="fas fa-truck-moving"></i> Digitalization of Logistics and Transportation</li>
   <li><i class="fas fa-calculator"></i> Novel Quantitative Decision Analytics and MCDM Approaches</li>
 </ul>
+
+<style>
+  /* کانتینر اصلی برای چیدمان شبکه ای */
+  .sdg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  /* استایل هر آیتم SDG */
+  .sdg-card {
+    transition: transform 0.3s ease;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .sdg-card:hover {
+    transform: translateY(-10px);
+  }
+
+  /* دایره یا مربع رنگی اعداد */
+  .sdg-box {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  /* رنگ‌های اختصاصی بر اساس تصویر ارسالی شما */
+  .sdg-12 { background-color: #bf8b2e; } /* Responsible Consumption */
+  .sdg-17 { background-color: #19486a; } /* Partnerships */
+  .sdg-9  { background-color: #f36d25; } /* Industry & Innovation */
+  .sdg-11 { background-color: #f99d26; } /* Sustainable Cities */
+  .sdg-8  { background-color: #a21942; } /* Decent Work */
+
+  /* استایل متن تعداد مقالات - هماهنگ با تم مشکی و روشن */
+  .sdg-label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--primary-color) !important;
+  }
+
+  .sdg-desc {
+    font-size: 0.75rem;
+    color: var(--primary-color);
+    opacity: 0.7;
+    display: block;
+    margin-top: 4px;
+  }
+</style>
+
+<div class="poms-main-header" style="margin-top: 50px;">Research Impact: UN Sustainable Development Goals</div>
+
+<p style="margin-top: 15px;">
+  My academic contributions are closely aligned with the United Nations Sustainable Development Goals (SDGs), 
+  particularly in the fields of sustainable production, innovation, and global partnerships.
+</p>
+
+<div class="sdg-grid">
+  <div class="sdg-card">
+    <div class="sdg-box sdg-12">12</div>
+    <span class="sdg-label">13 Documents</span>
+    <span class="sdg-desc">Responsible Consumption & Production</span>
+  </div>
+
+  <div class="sdg-card">
+    <div class="sdg-box sdg-17">17</div>
+    <span class="sdg-label">10 Documents</span>
+    <span class="sdg-desc">Partnerships for the Goals</span>
+  </div>
+
+  <div class="sdg-card">
+    <div class="sdg-box sdg-9">9</div>
+    <span class="sdg-label">9 Documents</span>
+    <span class="sdg-desc">Industry, Innovation & Infrastructure</span>
+  </div>
+
+  <div class="sdg-card">
+    <div class="sdg-box sdg-11">11</div>
+    <span class="sdg-label">8 Documents</span>
+    <span class="sdg-desc">Sustainable Cities & Communities</span>
+  </div>
+
+  <div class="sdg-card">
+    <div class="sdg-box sdg-8">8</div>
+    <span class="sdg-label">6 Documents</span>
+    <span class="sdg-desc">Decent Work & Economic Growth</span>
+  </div>
+</div>
