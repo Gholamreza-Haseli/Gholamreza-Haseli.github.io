@@ -22,7 +22,7 @@ redirect_from:
     border-radius: 4px;
     margin: -15px 0 10px 0; /* فاصله کمتر برای تیتر اول */
     border-left: 8px solid #d4af37;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -40,7 +40,7 @@ redirect_from:
   .interest-list li {
     padding: 10px 15px;
     margin-bottom: 6px;
-    font-size: 0.95em;
+    font-size: 0.90em;
     border-radius: 4px 4px 0 0;
     border: 1px solid #d4af37;
     transition: all 0.3s ease;
