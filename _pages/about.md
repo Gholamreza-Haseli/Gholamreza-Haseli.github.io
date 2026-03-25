@@ -83,14 +83,17 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
   <li><i class="fas fa-calculator"></i> Novel Quantitative Decision Analytics and MCDM Approaches</li>
 </ul>
 <style>
+/
+  .page__title {
+    display: none !important;
 
   /* کانتینر شبکه‌ای مینیمال برای تصاویر SDG */
   .sdg-image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* چیدمان خودکار در موبایل و دسکتاپ */
     gap: 15px; /* فاصله بین تصاویر */
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     justify-items: center; /* تراز کردن در مرکز */
   }
 
@@ -114,8 +117,6 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
     object-fit: contain; /* حفظ تناسب تصویر */
   }
 </style>
-
-<div class="poms-main-header" style="margin-top: 50px;">Research Impact</div>
 
 <div class="sdg-image-grid">
   <div class="sdg-image-card">
