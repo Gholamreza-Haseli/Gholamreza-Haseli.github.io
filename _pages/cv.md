@@ -21,9 +21,9 @@ redirect_from:
     color: #f2e3c2;
     padding: 15px 25px;
     border-radius: 4px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     border-left: 10px solid #d4af37;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -82,7 +82,7 @@ redirect_from:
 
 <div class="poms-cv-header">Curriculum Vitae</div>
 
-<p style="font-size: 1.1em; line-height: 1.6;">
+<p style="font-size: 0.95em; line-height: 1.4;">
   You can download my full Curriculum Vitae (CV) by clicking the button below. 
   The document includes my detailed research experience, publications, editorial roles, and academic achievements.
 </p>
