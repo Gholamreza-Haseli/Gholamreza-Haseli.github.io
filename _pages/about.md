@@ -83,9 +83,6 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
   <li><i class="fas fa-calculator"></i> Novel Quantitative Decision Analytics and MCDM Approaches</li>
 </ul>
 <style>
-/
-  .page__title {
-    display: none !important;
 
   /* کانتینر شبکه‌ای مینیمال برای تصاویر SDG */
   .sdg-image-grid {
