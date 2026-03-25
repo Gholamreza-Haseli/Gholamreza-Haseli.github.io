@@ -64,7 +64,82 @@ redirect_from:
     border: 1px solid #d4af37;
   }
 </style>
+<style>
+  .sdg-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
 
+  .sdg-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: default;
+  }
+
+  .sdg-item:hover {
+    transform: scale(1.1);
+  }
+
+  .sdg-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 auto 5px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .sdg-count {
+    font-size: 0.85em;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  /* رنگ‌های استاندارد SDG */
+  .sdg-12 { background-color: #bf8b2e; } /* Responsible Consumption */
+  .sdg-17 { background-color: #19486a; } /* Partnerships */
+  .sdg-9  { background-color: #f36d25; } /* Industry & Innovation */
+  .sdg-11 { background-color: #f99d26; } /* Sustainable Cities */
+  .sdg-8  { background-color: #a21942; } /* Decent Work */
+</style>
+
+<div class="poms-main-header" style="margin-top: 50px;">Research Impact: Sustainable Development Goals</div>
+
+<p style="margin-bottom: 25px;">My research contributes to several UN Sustainable Development Goals, specifically focusing on sustainable production and global partnerships.</p>
+
+<div class="sdg-container">
+  <div class="sdg-item">
+    <div class="sdg-icon sdg-12">12</div>
+    <div class="sdg-count">13 Documents</div>
+  </div>
+
+  <div class="sdg-item">
+    <div class="sdg-icon sdg-17">17</div>
+    <div class="sdg-count">10 Documents</div>
+  </div>
+
+  <div class="sdg-item">
+    <div class="sdg-icon sdg-9">9</div>
+    <div class="sdg-count">9 Documents</div>
+  </div>
+
+  <div class="sdg-item">
+    <div class="sdg-icon sdg-11">11</div>
+    <div class="sdg-count">8 Documents</div>
+  </div>
+
+  <div class="sdg-item">
+    <div class="sdg-icon sdg-8">8</div>
+    <div class="sdg-count">6 Documents</div>
+  </div>
+</div>
 <div class="poms-main-header">About Me</div>
 
 I am an early-career scholar in Engineering Management with strong experience in applied research on digital and sustainable engineering systems and in supervising students in project-based learning environments. My work bridges decision analytics, digital transformation, and strategic operations, with a particular focus on [Cloud Supply Chain as a Service](https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824). My research is oriented toward supporting managerial decision-making and strategy formulation in operations-intensive industries.
