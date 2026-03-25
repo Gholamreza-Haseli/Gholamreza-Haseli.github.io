@@ -34,13 +34,13 @@ redirect_from:
   .interest-list {
     list-style: none;
     padding-left: 0;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .interest-list li {
     padding: 10px 15px;
-    margin-bottom: 8px;
-    font-size: 1.05em;
+    margin-bottom: 6px;
+    font-size: 0.95em;
     border-radius: 4px 4px 0 0;
     border: 1px solid #d4af37;
     transition: all 0.3s ease;
@@ -58,7 +58,7 @@ redirect_from:
   .interest-list i {
     color: #d4af37;
     margin-right: 10px;
-    width: 20px;
+    width: 15px;
     text-align: center;
     border-radius: 4px 4px 0 0;
     border: 1px solid #d4af37;
