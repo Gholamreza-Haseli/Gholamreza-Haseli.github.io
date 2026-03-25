@@ -64,7 +64,7 @@ redirect_from:
     border: 1px solid #d4af37;
   }
 </style>
-<div class="poms-main-header" style="margin-top: 10px;">About Me</div>
+<div class="poms-main-header" style="margin-top: 0px;">About Me</div>
 
 I am an early-career scholar in Engineering Management with strong experience in applied research on digital and sustainable engineering systems and in supervising students in project-based learning environments. My work bridges decision analytics, digital transformation, and strategic operations, with a particular focus on [Cloud Supply Chain as a Service](https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824). My research is oriented toward supporting managerial decision-making and strategy formulation in operations-intensive industries.
 
