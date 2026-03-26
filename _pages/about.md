@@ -65,45 +65,91 @@ redirect_from:
     border-radius: 4px 4px 0 0;
     border: 1px solid #d4af37;
   }
-  /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
+  /* ۱. ایجاد حاشیه استاندارد و تقارن در کل صفحه */
   .wrapper {
-    max-width: 95% !important;
+    max-width: 92% !important; 
     margin: 0 auto !important;
+    padding: 0 20px !important;
   }
 
-  /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
+  /* ۲. چیدمان فلکس برای حذف شکاف بین سایدبار و محتوا */
   #main {
+    display: flex !important;
+    max-width: 100% !important;
+    justify-content: flex-start !important;
+    gap: 45px; /* فاصله منطقی بین عکس و متن */
+  }
+
+  /* ۳. تنظیمات سایدبار (عکس پروفایل) */
+  .sidebar {
+    width: 260px !important;
+    min-width: 260px !important;
+    float: none !important;
+  }
+
+  /* ۴. باز کردن فضای متن برای پر کردن پهنا */
+  .page__content {
+    flex-grow: 1;
+    width: auto !important;
     max-width: 100% !important;
   }
 
-  /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
-  .initial-content, 
-  .page__content {
-    width: 100% !important;
-  }
-
-  /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
-  @media (min-width: 64em) {
-    .archive, .page {
-      padding-right: 0 !important;
-      margin-right: 0 !important;
-    }
-  }
-
-  /* ۵. تنظیمات موبایل برای حفظ حاشیه ایمن */
-  @media (max-width: 64em) {
-    .wrapper {
-      max-width: 100% !important;
-      padding: 0 15px !important;
-    }
-  }
-
-  /* ۶. اصلاح سایز تیترها برای تناسب با صفحه عریض */
+  /* ۵. استایل باکس‌های سرمه‌ای (POMS Style) */
   .poms-main-header {
-    font-size: 1.15rem !important;
+    background-color: #0d1b3e !important;
+    color: #f2e3c2 !important;
     padding: 10px 18px !important;
-    margin-top: 0px !important;
-    border-left: 6px solid #d4af37 !important;
+    border-radius: 4px;
+    margin: 20px 0 20px 0 !important;
+    border-left: 8px solid #d4af37;
+    font-size: 1.1rem !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    position: relative;
+    top: -15px; /* هم‌تراز با بالای عکس پروفایل */
+  }
+
+  /* ۶. دو ستونه کردن لیست علایق پژوهشی (پیشنهاد جدید) */
+  .interest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* ایجاد دو ستون در دسکتاپ */
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+  }
+
+  .interest-grid li {
+    padding: 12px 15px;
+    border: 1px solid #d4af37;
+    border-radius: 6px;
+    font-size: 0.95em;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+  }
+
+  .interest-grid li:hover {
+    transform: translateX(5px);
+    background-color: #d4af37;
+    color: #0d1b3e !important;
+  }
+
+  .interest-grid i {
+    color: #d4af37;
+    margin-right: 12px;
+    width: 20px;
+    text-align: center;
+  }
+
+  /* ۷. واکنش‌گرایی برای موبایل */
+  @media (max-width: 64em) {
+    #main { display: block !important; }
+    .wrapper { max-width: 100% !important; padding: 0 15px !important; }
+    .sidebar { width: 100% !important; margin-bottom: 30px !important; }
+    .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
   }
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
