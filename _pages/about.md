@@ -63,38 +63,48 @@ redirect_from:
     border-radius: 4px 4px 0 0;
     border: 1px solid #d4af37;
   }
-  /* ۱. باز کردن عرض کل صفحه */
-.wrapper {
-  max-width: 98% !important; /* اشغال کل عرض مانیتور مشابه POMS */
-  margin: 0 auto !important;
-}
-
-/* ۲. حذف محدودیت عرض از بخش محتوا و سایدبار */
-#main {
-  max-width: 100% !important;
-  padding: 0 2% !important; /* فاصله خیلی کم از لبه‌ها */
-}
-
-/* ۳. اجازه دادن به متن برای پهن شدن */
-.archive, .page__content {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-/* ۴. حفظ تعادل در موبایل (بسیار مهم) */
-@media (max-width: 64em) {
+  /* ۱. حذف محدودیت عرض از کانتینر اصلی */
   .wrapper {
-    max-width: 100% !important;
-    padding: 0 10px !important;
+    max-width: 96% !important; 
+    margin: 0 auto !important;
   }
-}
 
-/* ۵. اصلاح سایز تیترها برای همخوانی بصری با متن پهن شده */
-.poms-main-header {
-  font-size: 1.1rem !important;
-  padding: 8px 15px !important;
-  margin-top: 25px !important;
-}
+  /* ۲. حذف ستون خالی سمت راست (بسیار مهم) */
+  .sidebar {
+    /* سایدبار سمت چپ (عکس شما) را حفظ می‌کند */
+  }
+
+  #main {
+    display: flex !important;
+    justify-content: center !important; /* محتوا را در مرکز پهنای جدید قرار می‌دهد */
+  }
+
+  .page__content {
+    /* ۳. مجبور کردن محتوا به استفاده از تمام فضای باقی‌مانده */
+    float: none !important;
+    width: 100% !important; 
+    max-width: 100% !important;
+    padding-right: 2% !important; /* فاصله خیلی ظریف از سمت راست */
+  }
+
+  /* ۴. اصلاح نهایی تیترها برای همخوانی با عرض جدید */
+  .poms-main-header {
+    font-size: 1.1rem !important;
+    padding: 10px 18px !important;
+    margin-top: 30px !important;
+    width: 100% !important;
+    box-sizing: border-box; /* جلوگیری از بیرون زدن باکس از کادر */
+  }
+
+  /* ۵. تنظیمات موبایل برای جلوگیری از چسبیدن به لبه‌ها */
+  @media (max-width: 64em) {
+    .wrapper {
+      max-width: 100% !important;
+    }
+    .page__content {
+      padding: 0 15px !important;
+    }
+  }
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
 
