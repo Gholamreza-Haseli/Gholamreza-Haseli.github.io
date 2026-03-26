@@ -7,6 +7,7 @@
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
+<style>
 /* کاهش فاصله بین sidebar و محتوای اصلی */
 
 .page {
@@ -27,6 +28,7 @@
 .author__content {
   margin-bottom: 10px !important;
 }
+</style>
 @import
     "vendor/breakpoint/breakpoint",
 
