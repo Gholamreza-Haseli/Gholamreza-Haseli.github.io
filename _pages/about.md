@@ -36,7 +36,7 @@ redirect_from:
   .interest-list {
     list-style: none;
     padding-left: 0;
-    margin-top: 10px;
+    margin-top: 50px;
   }
 
   .interest-list li {
