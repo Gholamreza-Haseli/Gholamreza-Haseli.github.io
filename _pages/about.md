@@ -157,7 +157,7 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
 </style>
 
 
-<li><Strong>Sustainable Developments Goals:</Strong></li>
+<Strong>Sustainable Developments Goals:</Strong>
 
 <div class="sdg-image-grid">
   <div class="sdg-image-card">
