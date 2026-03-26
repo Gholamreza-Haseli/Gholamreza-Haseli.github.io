@@ -63,6 +63,38 @@ redirect_from:
     border-radius: 4px 4px 0 0;
     border: 1px solid #d4af37;
   }
+  /* ۱. باز کردن عرض کل صفحه */
+.wrapper {
+  max-width: 98% !important; /* اشغال کل عرض مانیتور مشابه POMS */
+  margin: 0 auto !important;
+}
+
+/* ۲. حذف محدودیت عرض از بخش محتوا و سایدبار */
+#main {
+  max-width: 100% !important;
+  padding: 0 2% !important; /* فاصله خیلی کم از لبه‌ها */
+}
+
+/* ۳. اجازه دادن به متن برای پهن شدن */
+.archive, .page__content {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* ۴. حفظ تعادل در موبایل (بسیار مهم) */
+@media (max-width: 64em) {
+  .wrapper {
+    max-width: 100% !important;
+    padding: 0 10px !important;
+  }
+}
+
+/* ۵. اصلاح سایز تیترها برای همخوانی بصری با متن پهن شده */
+.poms-main-header {
+  font-size: 1.1rem !important;
+  padding: 8px 15px !important;
+  margin-top: 25px !important;
+}
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
 
