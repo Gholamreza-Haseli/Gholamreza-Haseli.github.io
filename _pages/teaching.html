@@ -102,6 +102,37 @@ author_profile: true
   .thesis-card {
     color: var(--primary-color);
   }
+  /
+  .wrapper {
+    max-width: 95% !important;
+    margin: 0 100 !important;
+  }
+
+  /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
+  #main {
+    max-width: 95% !important;
+  }
+
+  /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
+  .initial-content, 
+  .page__content {
+    width: 95% !important;
+  }
+
+  /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
+  @media (min-width: 64em) {
+    .archive, .page {
+      padding-right: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+  /* ۷. واکنش‌گرایی برای موبایل */
+  @media (max-width: 64em) {
+    #main { display: block !important; }
+    .wrapper { max-width: 100% !important; padding: 0 15px !important; }
+    .sidebar { width: 100% !important; margin-bottom: 30px !important; }
+    .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
+  }
 </style>
 
 <div class="poms-main-header">Teaching</div>
