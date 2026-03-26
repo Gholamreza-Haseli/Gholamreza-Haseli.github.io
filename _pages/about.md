@@ -11,96 +11,46 @@ redirect_from:
 ---
 
 <style>
-  /* مخفی کردن تایتل پیش‌فرض قالب در این صفحه خاص */
-  .page__title {
-    display: none !important;
-  }
-
-  /* استایل باکس سرمه‌ای برای تیترهای اصلی */
-  .poms-main-header {
-    background-color: #0d1b3e;
-    color: #f2e3c2;
-    padding: 10px 20px;
-    border-radius: 4px;
-    margin: -15px 0 10px 0; /* فاصله کمتر برای تیتر اول */
-    border-left: 8px solid #d4af37;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    display: block;
-  }
-
-  /* استایل لیست علایق پژوهشی */
-  .interest-list {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 10px;
-  }
-
-  .interest-list li {
-    padding: 10px 15px;
-    margin-bottom: 6px;
-    font-size: 0.90em;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
-    transition: all 0.3s ease;
-  }
-
-  .interest-list li:hover {
-    transform: translateX(8px);
-    background-color: #d4af37;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
-    color: #0d1b3e;
-    border-left-color: #0d1b3e;
-  }
-
-  .interest-list i {
-    color: #d4af37;
-    margin-right: 10px;
-    width: 15px;
-    text-align: center;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
-  }
-  /* ۱. ایجاد حاشیه استاندارد و تقارن در کل صفحه */
+  /* تنظیم عرض کل صفحه برای ایجاد تقارن و جلوگیری از چسبیدن به لبه‌ها */
   .wrapper {
     max-width: 92% !important; 
     margin: 0 auto !important;
-    padding: 0 20px !important;
   }
 
-  /* ۲. چیدمان فلکس برای حذف شکاف بین سایدبار و محتوا */
-  #main {
-    display: flex !important;
-    max-width: 100% !important;
-    justify-content: flex-start !important;
-    gap: 45px; /* فاصله منطقی بین عکس و متن */
-  }
-
-  /* ۳. تنظیمات سایدبار (عکس پروفایل) */
+  /* تنظیم سایدبار (عکس و مشخصات) برای جلوگیری از تداخل */
   .sidebar {
     width: 260px !important;
-    min-width: 260px !important;
-    float: none !important;
+    float: left !important;
+    margin-right: 45px !important; /* فاصله بین عکس و متن */
+    margin-left: 15px !important;  /* فاصله از لبه چپ برای تقارن */
+    position: relative;
+    z-index: 10;
   }
 
-  /* ۴. باز کردن فضای متن برای پر کردن پهنا */
-  .page__content {
-    flex-grow: 1;
+  /* باز کردن فضای متن و حذف ستون خالی سمت راست */
+  .archive, .page {
     width: auto !important;
     max-width: 100% !important;
+    float: none !important;
+    overflow: hidden; /* جلوگیری از تداخل با سایدبار */
   }
-  /* ۷. واکنش‌گرایی برای موبایل */
-  @media (max-width: 64em) {
-    #main { display: block !important; }
-    .wrapper { max-width: 100% !important; padding: 0 15px !important; }
-    .sidebar { width: 100% !important; margin-bottom: 30px !important; }
-    .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
+
+  /* استایل باکس‌های سرمه‌ای با فونت استاندارد */
+  .poms-main-header {
+    background-color: #0d1b3e !important;
+    color: #f2e3c2 !important;
+    padding: 10px 18px !important;
+    border-radius: 4px;
+    margin: 0 0 20px 0 !important;
+    border-left: 8px solid #d4af37;
+    font-size: 1.1rem !important;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    top: -15px; /* هم‌تراز کردن با بالای عکس */
   }
 </style>
+  /* مخفی کردن تایتل پیش‌فرض قالب در این صفحه خاص *
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
 
 I am an early-career scholar in Engineering Management with strong experience in applied research on digital and sustainable engineering systems and in supervising students in project-based learning environments. My work bridges decision analytics, digital transformation, and strategic operations, with a particular focus on [Cloud Supply Chain as a Service](https://www.sciencedirect.com/science/article/abs/pii/S1366554525005824). My research is oriented toward supporting managerial decision-making and strategy formulation in operations-intensive industries.
