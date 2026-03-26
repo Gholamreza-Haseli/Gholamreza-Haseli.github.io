@@ -36,7 +36,7 @@ redirect_from:
   .interest-list {
     list-style: none;
     padding-left: 0;
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .interest-list li {
@@ -68,7 +68,7 @@ redirect_from:
   /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
   .wrapper {
     max-width: 95% !important;
-    margin: 0 10 !important;
+    margin: 50 50 !important;
   }
 
   /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
