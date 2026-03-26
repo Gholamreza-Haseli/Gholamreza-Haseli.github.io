@@ -1,6 +1,8 @@
 ---
 permalink: /
 # تایتل را از اینجا حذف نمی‌کنیم اما در نمایش آن را با CSS مخفی می‌کنیم
+layout: single
+classes: wide
 title: "About Me"
 author_profile: true
 redirect_from: 
@@ -63,47 +65,45 @@ redirect_from:
     border-radius: 4px 4px 0 0;
     border: 1px solid #d4af37;
   }
-  /* ۱. حذف محدودیت عرض از کانتینر اصلی */
+  /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
   .wrapper {
-    max-width: 96% !important; 
+    max-width: 95% !important;
     margin: 0 auto !important;
   }
 
-  /* ۲. حذف ستون خالی سمت راست (بسیار مهم) */
-  .sidebar {
-    /* سایدبار سمت چپ (عکس شما) را حفظ می‌کند */
-  }
-
+  /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
   #main {
-    display: flex !important;
-    justify-content: center !important; /* محتوا را در مرکز پهنای جدید قرار می‌دهد */
-  }
-
-  .page__content {
-    /* ۳. مجبور کردن محتوا به استفاده از تمام فضای باقی‌مانده */
-    float: none !important;
-    width: 100% !important; 
     max-width: 100% !important;
-    padding-right: 2% !important; /* فاصله خیلی ظریف از سمت راست */
   }
 
-  /* ۴. اصلاح نهایی تیترها برای همخوانی با عرض جدید */
-  .poms-main-header {
-    font-size: 1.1rem !important;
-    padding: 10px 18px !important;
-    margin-top: 30px !important;
+  /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
+  .initial-content, 
+  .page__content {
     width: 100% !important;
-    box-sizing: border-box; /* جلوگیری از بیرون زدن باکس از کادر */
   }
 
-  /* ۵. تنظیمات موبایل برای جلوگیری از چسبیدن به لبه‌ها */
+  /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
+  @media (min-width: 64em) {
+    .archive, .page {
+      padding-right: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+
+  /* ۵. تنظیمات موبایل برای حفظ حاشیه ایمن */
   @media (max-width: 64em) {
     .wrapper {
       max-width: 100% !important;
-    }
-    .page__content {
       padding: 0 15px !important;
     }
+  }
+
+  /* ۶. اصلاح سایز تیترها برای تناسب با صفحه عریض */
+  .poms-main-header {
+    font-size: 1.15rem !important;
+    padding: 10px 18px !important;
+    margin-top: 35px !important;
+    border-left: 6px solid #d4af37 !important;
   }
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
