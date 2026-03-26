@@ -68,7 +68,7 @@ redirect_from:
   /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
   .wrapper {
     max-width: 95% !important;
-    margin: 50 50 !important;
+    margin: 50 0 !important;
   }
 
   /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
