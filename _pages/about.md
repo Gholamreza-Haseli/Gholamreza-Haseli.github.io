@@ -63,6 +63,30 @@ redirect_from:
     border-radius: 4px 4px 0 0;
     border: 1px solid #d4af37;
   }
+  /* تنظیمات تمام‌صفحه هوشمند */
+@media (min-width: 80em) { /* فقط برای مانیتورهای بزرگ */
+  .wrapper {
+    max-width: 95% !important; /* اشغال ۹۵ درصد عرض صفحه مشابه POMS */
+    margin: 0 auto !important;
+  }
+  
+  .archive, .page__content {
+    width: 80% !important; /* باز شدن فضای متن در دسکتاپ */
+  }
+}
+
+/* جلوگیری از چسبیدن متن به لبه‌ها در موبایل */
+@media (max-width: 64em) {
+  .page__content {
+    padding: 0 20px !important; /* ایجاد حاشیه ایمن در گوشی و تبلت */
+  }
+}
+
+/* اصلاح سایز فونت تیترها برای همخوانی با استاندارد POMS */
+.poms-main-header {
+  font-size: 1.1rem !important; /* کاهش سایز برای تناسب با متن بدنه */
+  padding: 8px 15px !important;
+}
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
 
