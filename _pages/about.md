@@ -93,57 +93,6 @@ redirect_from:
     width: auto !important;
     max-width: 100% !important;
   }
-
-  /* ۵. استایل باکس‌های سرمه‌ای (POMS Style) */
-  .poms-main-header {
-    background-color: #0d1b3e !important;
-    color: #f2e3c2 !important;
-    padding: 10px 18px !important;
-    border-radius: 4px;
-    margin: 20px 0 20px 0 !important;
-    border-left: 8px solid #d4af37;
-    font-size: 1.1rem !important;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: block;
-    position: relative;
-    top: -15px; /* هم‌تراز با بالای عکس پروفایل */
-  }
-
-  /* ۶. دو ستونه کردن لیست علایق پژوهشی (پیشنهاد جدید) */
-  .interest-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* ایجاد دو ستون در دسکتاپ */
-    gap: 12px;
-    padding: 0;
-    list-style: none;
-    margin-top: 15px;
-  }
-
-  .interest-grid li {
-    padding: 12px 15px;
-    border: 1px solid #d4af37;
-    border-radius: 6px;
-    font-size: 0.95em;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-  }
-
-  .interest-grid li:hover {
-    transform: translateX(5px);
-    background-color: #d4af37;
-    color: #0d1b3e !important;
-  }
-
-  .interest-grid i {
-    color: #d4af37;
-    margin-right: 12px;
-    width: 20px;
-    text-align: center;
-  }
-
   /* ۷. واکنش‌گرایی برای موبایل */
   @media (max-width: 64em) {
     #main { display: block !important; }
