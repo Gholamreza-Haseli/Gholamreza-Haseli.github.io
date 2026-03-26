@@ -7,27 +7,7 @@
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
-<style>
-.page {
-  margin-top: 10px !important;
-   margin-left: -10px !important;
-  padding-top: 0 !important;
-}
 
-.page__content {
-  margin-top: 0 !important;
-}
-
-#main {
-  padding-top: 0 !important;
-}
-
-/* فاصله بین نام و متن sidebar */
-
-.author__content {
-  margin-bottom: 10px !important;
-}
-</style>
 @import
     "vendor/breakpoint/breakpoint",
 
@@ -61,3 +41,24 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+<style>
+.page {
+  margin-top: 10px !important;
+   margin-left: -10px !important;
+  padding-top: 0 !important;
+}
+
+.page__content {
+  margin-top: 0 !important;
+}
+
+#main {
+  padding-top: 0 !important;
+}
+
+/* فاصله بین نام و متن sidebar */
+
+.author__content {
+  margin-bottom: 10px !important;
+}
+</style>
