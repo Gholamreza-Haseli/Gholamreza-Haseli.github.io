@@ -36,7 +36,7 @@ redirect_from:
   .interest-list {
     list-style: none;
     padding-left: 0;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .interest-list li {
@@ -97,8 +97,6 @@ redirect_from:
     .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
   }
   /* ۵. تنظیمات موبایل برای حفظ حاشیه ایمن */
-.page__content {
-    margin-left: -50px !important; /* متن را به سمت سایدبار می‌کشد */
 }
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
