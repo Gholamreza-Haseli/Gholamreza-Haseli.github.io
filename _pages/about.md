@@ -73,27 +73,27 @@ redirect_from:
 
   /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
   #main {
-    max-width: 100% !important;
+    max-width: 95% !important;
   }
 
   /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
   .initial-content, 
   .page__content {
-    width: 100% !important;
+    width: 95% !important;
   }
 
   /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
   @media (min-width: 64em) {
     .archive, .page {
-      padding-right: 0 !important;
-      margin-right: 0 !important;
+      padding-right: 5 !important;
+      margin-right: 5 !important;
     }
   }
 
   /* ۵. تنظیمات موبایل برای حفظ حاشیه ایمن */
   @media (max-width: 64em) {
     .wrapper {
-      max-width: 100% !important;
+      max-width: 95% !important;
       padding: 0 15px !important;
     }
   }
@@ -102,7 +102,7 @@ redirect_from:
   .poms-main-header {
     font-size: 1.15rem !important;
     padding: 10px 18px !important;
-    margin-top: 35px !important;
+    margin-top: 15px !important;
     border-left: 6px solid #d4af37 !important;
   }
 </style>
