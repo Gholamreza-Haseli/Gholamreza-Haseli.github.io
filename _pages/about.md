@@ -11,93 +11,63 @@ redirect_from:
 ---
 
 <style>
-  /* مخفی کردن تایتل پیش‌فرض قالب در این صفحه خاص */
-  .page__title {
-    display: none !important;
-  }
-
-  /* استایل باکس سرمه‌ای برای تیترهای اصلی */
-  .poms-main-header {
-    background-color: #0d1b3e;
-    color: #f2e3c2;
-    padding: 10px 20px;
-    border-radius: 4px;
-    margin: -15px 0 10px 0; /* فاصله کمتر برای تیتر اول */
-    border-left: 8px solid #d4af37;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    display: block;
-  }
-
-  /* استایل لیست علایق پژوهشی */
-  .interest-list {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 10px;
-  }
-
-  .interest-list li {
-    padding: 10px 15px;
-    margin-bottom: 6px;
-    font-size: 0.90em;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
-    transition: all 0.3s ease;
-  }
-
-  .interest-list li:hover {
-    transform: translateX(8px);
-    background-color: #d4af37;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
-    color: #0d1b3e;
-    border-left-color: #0d1b3e;
-  }
-
-  .interest-list i {
-    color: #d4af37;
-    margin-right: 10px;
-    width: 15px;
-    text-align: center;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
-  }
-  /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
+  <style>
+  /* باز کردن عرض کل صفحه و ایجاد فاصله از لبه‌ها (رفع ایراد ۱ و ۲) */
   .wrapper {
-    max-width: 95% !important;
+    max-width: 94% !important; 
     margin: 0 auto !important;
   }
 
-  /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
+  /* تنظیم چیدمان بدنه برای حذف فاصله بین عکس و متن (رفع ایراد ۳) */
   #main {
+    max-width: 100% !important;
+    display: flex !important;
+    gap: 40px !important; /* فاصله تنظیم شده بین سایدبار و متن */
+  }
+
+  /* فیکس کردن عرض سایدبار و متن */
+  .sidebar {
+    width: 260px !important;
+    min-width: 260px !important;
+    float: none !important;
+  }
+
+  .page__content {
+    width: 100% !important;
     max-width: 100% !important;
   }
 
-  /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
-  .initial-content, 
-  .page__content {
-    width: 100% !important;
+  /* استایل باکس‌های سرمه‌ای با فونت استاندارد */
+  .poms-main-header {
+    background-color: #0d1b3e !important;
+    color: #f2e3c2 !important;
+    padding: 10px 18px !important;
+    border-radius: 4px;
+    margin: 0 0 20px 0 !important;
+    border-left: 8px solid #d4af37;
+    font-size: 1.1rem !important; /* سایز اصلاح شده برای همخوانی */
+    font-weight: bold;
+    text-transform: uppercase;
   }
 
-  /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
-  @media (min-width: 64em) {
-    .archive, .page {
-      padding-right: 0 !important;
-      margin-right: 0 !important;
-    }
+  /* استایل لیست علایق پژوهشی دو ستونه (پیشنهاد جدید) */
+  .interest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12px;
+    padding: 0;
+    list-style: none;
   }
-  /* ۷. واکنش‌گرایی برای موبایل */
-  @media (max-width: 64em) {
-    #main { display: block !important; }
-    .wrapper { max-width: 100% !important; padding: 0 15px !important; }
-    .sidebar { width: 100% !important; margin-bottom: 30px !important; }
-    .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
-  }
-  /* ۵. تنظیمات موبایل برای حفظ حاشیه ایمن */
 
+  .interest-grid li {
+    padding: 12px 15px;
+    border: 1px solid #d4af37;
+    border-radius: 6px;
+    font-size: 0.95em;
+    display: flex;
+    align-items: center;
+  }
+</style>
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
 
