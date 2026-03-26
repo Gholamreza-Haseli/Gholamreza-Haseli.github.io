@@ -129,7 +129,7 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
   /* کانتینر شبکه‌ای مینیمال برای تصاویر SDG */
   .sdg-image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 0fr)); /* چیدمان خودکار در موبایل و دسکتاپ */
+    grid-template-columns: repeat(auto-fit, minmax(85px, 0fr)); /* چیدمان خودکار در موبایل و دسکتاپ */
     gap: 2px; /* فاصله بین تصاویر */
     margin-top: 35px;
     margin-bottom: 25px;
@@ -155,6 +155,8 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
     object-fit: contain; /* حفظ تناسب تصویر */
   }
 </style>
+
+Sustainable Developments Goals
 
 <div class="sdg-image-grid">
   <div class="sdg-image-card">
