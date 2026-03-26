@@ -56,7 +56,6 @@ redirect_from:
     color: #0d1b3e;
     border-left-color: #0d1b3e;
   }
-
   .interest-list i {
     color: #d4af37;
     margin-right: 10px;
@@ -70,7 +69,6 @@ redirect_from:
     max-width: 95% !important;
     margin: 0 auto !important;
   }
-
   /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
   #main {
     max-width: 95% !important;
