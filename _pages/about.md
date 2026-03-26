@@ -94,7 +94,7 @@ redirect_from:
     #main { display: block !important; }
     .wrapper { max-width: 100% !important; padding: 0 15px !important; }
     .sidebar { width: 100% !important; margin-bottom: 30px !important; }
-    .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
+    .interest-grid { grid-template-columns: 1.2fr; } /* تک ستونه در موبایل */
   }
   /* ۵. تنظیمات موبایل برای حفظ حاشیه ایمن */
 }
