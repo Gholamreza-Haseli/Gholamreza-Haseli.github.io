@@ -79,14 +79,14 @@ redirect_from:
   /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
   .initial-content, 
   .page__content {
-    width: 90% !important;
+    width: 95% !important;
   }
 
   /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
   @media (min-width: 64em) {
     .archive, .page {
-      padding-right: 15 !important;
-      margin-right: 15 !important;
+      padding-right: 0 !important;
+      margin-right: 0 !important;
     }
   }
   /* ۷. واکنش‌گرایی برای موبایل */
