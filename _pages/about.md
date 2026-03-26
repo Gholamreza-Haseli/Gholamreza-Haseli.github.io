@@ -67,26 +67,26 @@ redirect_from:
   }
   /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
   .wrapper {
-    max-width: 95% !important;
-    margin: 50 0 !important;
+    max-width: 90% !important;
+    margin: 0 100 !important;
   }
 
   /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
   #main {
-    max-width: 100% !important;
+    max-width: 90% !important;
   }
 
   /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
   .initial-content, 
   .page__content {
-    width: 100% !important;
+    width: 90% !important;
   }
 
   /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
   @media (min-width: 64em) {
     .archive, .page {
-      padding-right: 0 !important;
-      margin-right: 0 !important;
+      padding-right: 15 !important;
+      margin-right: 15 !important;
     }
   }
   /* ۷. واکنش‌گرایی برای موبایل */
