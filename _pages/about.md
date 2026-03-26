@@ -11,7 +11,6 @@ redirect_from:
 ---
 
 <style>
-  <style>
   /* باز کردن عرض کل صفحه و ایجاد فاصله از لبه‌ها (رفع ایراد ۱ و ۲) */
   .wrapper {
     max-width: 94% !important; 
@@ -67,7 +66,6 @@ redirect_from:
     display: flex;
     align-items: center;
   }
-</style>
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
 
