@@ -130,7 +130,7 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
   .sdg-image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* چیدمان خودکار در موبایل و دسکتاپ */
-    gap: 15px; /* فاصله بین تصاویر */
+    gap: 1px; /* فاصله بین تصاویر */
     margin-top: 35px;
     margin-bottom: 25px;
     justify-items: center; /* تراز کردن در مرکز */
