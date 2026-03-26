@@ -131,7 +131,7 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(85px, 0fr)); /* چیدمان خودکار در موبایل و دسکتاپ */
     gap: 2px; /* فاصله بین تصاویر */
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 25px;
     justify-items: left; /* تراز کردن در مرکز */
   }
@@ -157,7 +157,7 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
 </style>
 
 
-<Strong>Sustainable Developments Goals:</Strong>
+<Strong>Sustainable Developments Goals:</Strong> margin-top: 15px;
 
 <div class="sdg-image-grid">
   <div class="sdg-image-card">
