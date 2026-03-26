@@ -73,7 +73,7 @@ redirect_from:
 
   /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
   #main {
-    max-width: 90% !important;
+    max-width: 95% !important;
   }
 
   /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
