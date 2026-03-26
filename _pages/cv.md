@@ -86,13 +86,13 @@ redirect_from:
 
   /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
   #main {
-    max-width: 96% !important;
+    max-width: 95% !important;
   }
 
   /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
   .initial-content, 
   .page__content {
-    width: 96% !important;
+    width: 95% !important;
   }
 
   /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
