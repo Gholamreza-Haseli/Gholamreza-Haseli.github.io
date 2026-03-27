@@ -1,30 +1,16 @@
-<div class="custom-footer">
-  <div class="footer-grid">
-    <div class="footer-col">
-      <h3 class="footer-title">Gholamreza Haseli</h3>
-      <p class="footer-bio">Ph.D. Scholar in Engineering Management. Dedicated to advancing sustainable logistics and digital transformation through novel decision analytics.</p>
-    </div>
+<!-- start custom footer snippets -->
 
-    <div class="footer-col">
-      <h3 class="footer-title">Navigation</h3>
-      <ul class="footer-links">
-        <li><a href="/publications/">Publications</a></li>
-        <li><a href="/teaching/">Teaching</a></li>
-        <li><a href="/cv/">Curriculum Vitae</a></li>
-      </ul>
-    </div>
+<a href="/sitemap/">Sitemap</a>
 
-    <div class="footer-col">
-      <h3 class="footer-title">Academic Identifiers</h3>
-      <div class="footer-icons">
-        <a href="لینک-گوگل-اسکالر" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="لینک-ارکید" title="ORCID"><i class="fab fa-orcid"></i></a>
-        <a href="لینک-لینکدین" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:ایمیل-شما" title="Email"><i class="fas fa-envelope"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 Gholamreza Haseli | Developed for Academic Excellence</p>
-  </div>
-</div>
+<!-- Support for MatJax -->
+<script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+
+<!-- Support for Mermaid -->
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({startOnLoad:true, theme:'default'});
+    await mermaid.run({querySelector:'code.language-mermaid'});
+</script>
+
+<!-- end custom footer snippets -->
