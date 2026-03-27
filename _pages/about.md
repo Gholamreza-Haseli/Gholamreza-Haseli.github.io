@@ -96,6 +96,40 @@ redirect_from:
   }
   /* ۵. تنظیمات موبایل برای حفظ حاشیه ایمن */
 }
+  .custom-footer {
+    background: #0a0a0a;
+    color: #eee;
+    padding: 60px 5% 20px;
+    border-top: 2px solid #d4af37; /* خط طلایی نازک در بالای فوتر */
+    margin-top: 80px;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; /* ستون اول عریض‌تر برای بیوگرافی */
+    gap: 40px;
+  }
+  .footer-title {
+    color: #d4af37;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+  .footer-links { list-style: none; padding: 0; }
+  .footer-links li { margin-bottom: 10px; }
+  .footer-links a { color: #bbb; text-decoration: none; transition: 0.3s; }
+  .footer-links a:hover { color: #d4af37; padding-left: 5px; }
+  .footer-icons { display: flex; gap: 20px; font-size: 1.4rem; }
+  .footer-icons a { color: #bbb; }
+  .footer-icons a:hover { color: #d4af37; }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #222;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+  }
 </style>
 <div class="poms-main-header" style="margin-top: 0px;">About Me</div>
 
