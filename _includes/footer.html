@@ -1,18 +1,30 @@
-<div class="page__footer-follow" style="border-top: 0.8px solid #f2f3f3; padding-top: 5px;">
-  <ul class="social-icons" style="margin-bottom: 3px;">
-    {% if site.author.linkedin %}
-      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-    {% endif %}
-    {% if site.author.googlescholar %}
-      <li><a href="{{ site.author.googlescholar }}" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-  </ul>
-</div>
+<div class="custom-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h3 class="footer-title">Gholamreza Haseli</h3>
+      <p class="footer-bio">Ph.D. Scholar in Engineering Management. Dedicated to advancing sustainable logistics and digital transformation through novel decision analytics.</p>
+    </div>
 
-<div class="page__footer-copyright" style="font-size: 0.9em; color: #7a7a7a;">
-  &copy; {{ site.time | date: '%Y' }} <strong>Gholamreza Haseli</strong>. All rights reserved.
-  <br>
+    <div class="footer-col">
+      <h3 class="footer-title">Navigation</h3>
+      <ul class="footer-links">
+        <li><a href="/publications/">Publications</a></li>
+        <li><a href="/teaching/">Teaching</a></li>
+        <li><a href="/cv/">Curriculum Vitae</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-title">Academic Identifiers</h3>
+      <div class="footer-icons">
+        <a href="لینک-گوگل-اسکالر" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="لینک-ارکید" title="ORCID"><i class="fab fa-orcid"></i></a>
+        <a href="لینک-لینکدین" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:ایمیل-شما" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Gholamreza Haseli | Developed for Academic Excellence</p>
+  </div>
 </div>
