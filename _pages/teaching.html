@@ -8,7 +8,10 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  /* باکس سرمه‌ای اصلی - رنگ متن ثابت برای خوانایی روی سرمه‌ای */
+  /* حذف تایتل پیش‌فرض برای هماهنگی با دیزاین شما */
+  .page__title { display: none !important; }
+
+  /* باکس سرمه‌ای اصلی - رنگ متن ثابت برای خوانایی */
   .poms-main-header {
     background-color: #0d1b3e !important;
     color: #f2e3c2 !important;
@@ -22,7 +25,7 @@ author_profile: true
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
 
-  /* زیرعنوان‌های طلایی - رنگ متن ثابت برای خوانایی روی کرم */
+  /* زیرعنوان‌های طلایی */
   .poms-sub-header {
     background-color: #f2e3c2 !important;
     color: #0d1b3e !important;
@@ -34,102 +37,99 @@ author_profile: true
     border-left: 5px solid #0d1b3e;
   }
 
-  /* کارت هر درس */
+  /* کارت هر درس - استفاده از رنگ بدنه برای سازگاری با تم */
   .course-card {
     border-left: 3px solid var(--border-color, #eee);
     padding-left: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: inherit; /* ارث‌بری رنگ متن از تم اصلی */
   }
 
   .course-name {
     font-weight: bold;
-    color: var(--primary-color, #222);
-    font-size: 1.1em;
+    color: inherit;
+    font-size: 1.15em;
     display: block;
+    margin-bottom: 5px;
   }
 
-  /* اصلاح رنگ متن های کوچک و توضیحات در هر دو تم */
+  /* تنظیم رنگ متون کمکی و لیست‌ها در هر دو تم */
   .course-card small, .class-info {
-    color: var(--primary-color) !important;
-    opacity: 0.8;
-  }
-
-  .training-partner {
-    display: inline-block;
-    background: rgba(238, 191, 29, 0.15);
-    color: #0d1b3e !important;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 0.80em;
-    font-weight: bold;
-    margin-top: 5px;
-    border: 1px solid #d4af37;
+    color: inherit !important;
+    opacity: 0.85;
   }
 
   .class-info {
-    font-size: 0.85em;
     list-style: none;
     padding-left: 0;
-    margin-top: 5px;
+    margin-top: 8px;
   }
 
   .class-info li::before {
     content: "• ";
     color: #d4af37;
     font-weight: bold;
+    margin-right: 5px;
   }
 
-  /* بخش پایان‌نامه‌ها - استفاده از متغیر سیستمی برای پس‌زمینه */
+  /* باکس پارتنر آموزشی - برای خوانایی در تم مشکی کمی شفاف شده */
+  .training-partner {
+    display: inline-block;
+    background: rgba(212, 175, 55, 0.2);
+    color: inherit;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-top: 8px;
+    border: 1px solid #d4af37;
+  }
+
+  /* بخش پایان‌نامه‌ها */
   .thesis-card {
     border: 1px solid var(--border-color, #eee);
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 5px;
-    color: var(--primary-color);
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: inherit;
+    transition: transform 0.2s;
   }
 
   .student-name {
-    color: #4169E1 !important; /* تغییر به طلایی برای درخشش در هر دو تم */
+    color: #4169E1 !important; /* رنگ آبی ثابت برای نام دانشجو */
     font-weight: bold;
     border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-    padding-bottom: 3px;
-    margin-bottom: 8px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
     display: block;
-  }
-  
-  .thesis-card {
-    color: var(--primary-color);
-  }
-  /
-  .wrapper {
-    max-width: 95% !important;
-    margin: 0 100 !important;
+    font-size: 1.1em;
   }
 
-  /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
+  /* تنظیمات چیدمان و عرض صفحه (اصلاح شده) */
+  .wrapper {
+    max-width: 95% !important;
+    margin: 0 auto !important;
+  }
+
   #main {
     max-width: 95% !important;
   }
 
-  /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
-  .initial-content, 
   .page__content {
-    width: 95% !important;
+    width: 100% !important;
+    padding-right: 0 !important;
   }
 
-  /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
   @media (min-width: 64em) {
-    .archive, .page {
-      padding-right: 0 !important;
-      margin-right: 0 !important;
+    .page__content {
+      margin-left: -20px !important; /* کاهش فاصله سایدبار */
     }
   }
-  /* ۷. واکنش‌گرایی برای موبایل */
+
+  /* واکنش‌گرایی موبایل */
   @media (max-width: 64em) {
-    #main { display: block !important; }
     .wrapper { max-width: 100% !important; padding: 0 15px !important; }
-    .sidebar { width: 100% !important; margin-bottom: 30px !important; }
-    .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
+    .course-card { border-left-width: 5px; }
   }
 </style>
 
