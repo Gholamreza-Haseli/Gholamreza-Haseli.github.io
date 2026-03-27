@@ -99,9 +99,9 @@ redirect_from:
   .custom-footer {
     background: #0a0a0a;
     color: #eee;
-    padding: 60px 5% 20px;
+    padding: 10px 5% 20px;
     border-top: 1px solid #d4af37; /* خط طلایی نازک در بالای فوتر */
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .footer-grid {
     display: grid;
@@ -110,9 +110,9 @@ redirect_from:
   }
   .footer-title {
     color: #d4af37;
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     margin-bottom: 10px;
   }
   .footer-links { list-style: none; padding: 0; }
@@ -124,10 +124,10 @@ redirect_from:
   .footer-icons a:hover { color: #d4af37; }
   .footer-bottom {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
     border-top: 1px solid #222;
-    padding-top: 10px;
-    font-size: 0.7rem;
+    padding-top: 5px;
+    font-size: 0.5rem;
     color: #666;
   }
 </style>
