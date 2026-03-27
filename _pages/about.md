@@ -116,18 +116,18 @@ redirect_from:
     margin-bottom: 20px;
   }
   .footer-links { list-style: none; padding: 0; }
-  .footer-links li { margin-bottom: 10px; }
+  .footer-links li { margin-bottom: 4px; }
   .footer-links a { color: #bbb; text-decoration: none; transition: 0.3s; }
   .footer-links a:hover { color: #d4af37; padding-left: 5px; }
-  .footer-icons { display: flex; gap: 20px; font-size: 1.4rem; }
+  .footer-icons { display: flex; gap: 20px; font-size: 1.1rem; }
   .footer-icons a { color: #bbb; }
   .footer-icons a:hover { color: #d4af37; }
   .footer-bottom {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 15px;
     border-top: 1px solid #222;
-    padding-top: 20px;
-    font-size: 0.8rem;
+    padding-top: 10px;
+    font-size: 0.7rem;
     color: #666;
   }
 </style>
