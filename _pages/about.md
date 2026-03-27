@@ -100,20 +100,20 @@ redirect_from:
     background: #0a0a0a;
     color: #eee;
     padding: 60px 5% 20px;
-    border-top: 2px solid #d4af37; /* خط طلایی نازک در بالای فوتر */
-    margin-top: 80px;
+    border-top: 1px solid #d4af37; /* خط طلایی نازک در بالای فوتر */
+    margin-top: 20px;
   }
   .footer-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr; /* ستون اول عریض‌تر برای بیوگرافی */
-    gap: 40px;
+    gap: 10px;
   }
   .footer-title {
     color: #d4af37;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .footer-links { list-style: none; padding: 0; }
   .footer-links li { margin-bottom: 4px; }
