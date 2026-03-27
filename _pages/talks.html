@@ -8,65 +8,76 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  /* استایل باکس تیترهای اصلی */
+  /* حذف تایتل پیش‌فرض برای ظاهر حرفه‌ای‌تر */
+  .page__title { display: none !important; }
+
+  /* استایل باکس تیترهای اصلی (BOOKS / CHAPTERS) */
   .poms-header {
-    background-color: #0d1b3e;
-    color: #f2e3c2;
-    padding: 10px 20px;
+    background-color: #0d1b3e !important;
+    color: #f2e3c2 !important;
+    padding: 12px 20px;
     border-radius: 4px;
     margin: 30px 0 30px 0;
     border-left: 8px solid #d4af37;
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
 
-  /* تنظیم فاصله متن‌ها برای جلوگیری از چسبندگی */
-  .activity-list {
-    margin-top: 20px;
-    color: inherit !important;
-    font-size: 0.90em;
-  }
+  /* اصلاح رنگ متن توضیحات و ارجاعات زیر تایتل کتاب */
+  .archive__item-excerpt, 
+  .archive__item-excerpt p,
+  .activity-list,
   .excerpt-list {
-    color: inherit !important;
-    font-size: 0.90em;
-  }
-    .books-item-wrapper {
-       color: inherit !important;
-    font-size: 0.90em;
-  }
-  /
-  .wrapper {
-    max-width: 95% !important;
-    margin: 0 100 !important;
+    color: inherit !important; /* ارث‌بری رنگ از تم برای درخشش در تم مشکی */
+    opacity: 0.85;
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-top: 10px;
   }
 
-  /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
+  /* استایل لینک‌های داخل متن (مثل Elsevier) */
+  .archive__item-excerpt a {
+    color: #4169E1 !important; /* رنگ آبی ملایم برای لینک‌ها */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .archive__item-excerpt a:hover {
+    text-decoration: underline;
+    color: #d4af37 !important; /* تغییر رنگ به طلایی هنگام هاور */
+  }
+
+  /* تنظیمات چیدمان پهن (Full Width) */
+  .wrapper {
+    max-width: 95% !important;
+    margin: 0 auto !important;
+  }
+
   #main {
     max-width: 95% !important;
   }
 
-  /* ۳. اجازه به بخش متن برای پهن شدن در فضای باقی‌مانده */
-  .initial-content, 
   .page__content {
-    width: 95% !important;
+    width: 100% !important;
+    padding-right: 0 !important;
   }
 
-  /* ۴. حذف ستون خالی سمت راست که باعث عدم تقارن شده بود */
+  /* اصلاح فاصله سایدبار در دسکتاپ */
   @media (min-width: 64em) {
-    .archive, .page {
-      padding-right: 0 !important;
-      margin-right: 0 !important;
+    .archive__item {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--border-color, #eee);
+      padding-bottom: 20px;
     }
   }
-  /* ۷. واکنش‌گرایی برای موبایل */
+
+  /* واکنش‌گرایی موبایل */
   @media (max-width: 64em) {
-    #main { display: block !important; }
     .wrapper { max-width: 100% !important; padding: 0 15px !important; }
-    .sidebar { width: 100% !important; margin-bottom: 30px !important; }
-    .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
+    #main { display: block !important; }
   }
 </style>
 
