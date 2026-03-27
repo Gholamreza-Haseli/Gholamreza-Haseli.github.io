@@ -1,23 +1,25 @@
-<div class="page__footer-follow" style="border-top: 0.8px solid #f2f3f3; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+<div class="page__footer-follow" style="background: transparent !important; border-top: 1px solid #f2f3f3; padding: 15px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
   
-  <div class="page__footer-copyright" style="font-size: 0.85em; color: #7a7a7a;">
+  <div class="page__footer-copyright" style="font-size: 0.85em; color: #7a7a7a; background: transparent !important;">
     &copy; {{ site.time | date: '%Y' }} <strong>Gholamreza Haseli</strong>. All rights reserved.
   </div>
 
-  <ul class="social-icons" style="margin: 0; padding: 0; list-style: none; display: flex; gap: 15px; font-size: 1.2em;">
+  <ul class="social-icons" style="margin: 0; padding: 0; list-style: none; display: flex; gap: 20px; font-size: 1.5em; background: transparent !important;">
     {% if site.author.linkedin %}
-      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" style="color: #0077b5;"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" style="color: #0077b5; background: transparent !important;"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
     {% endif %}
     
     {% if site.author.googlescholar %}
-      <li><a href="{{ site.author.googlescholar }}" title="Google Scholar" style="color: #4285f4;"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a></li>
+      <li><a href="{{ site.author.googlescholar }}" title="Google Scholar" style="color: #4285f4; background: transparent !important;"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a></li>
     {% endif %}
     
     {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}" title="GitHub" style="color: #333;"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a></li>
+      <li><a href="https://github.com/{{ site.author.github }}" title="GitHub" style="color: #333; background: transparent !important;"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a></li>
     {% endif %}
 
-    <li><a href="mailto:{{ site.author.email }}" title="Email" style="color: #7a7a7a;"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a></li>
+    {% if site.author.email %}
+      <li><a href="mailto:{{ site.author.email }}" title="Email" style="color: #7a7a7a; background: transparent !important;"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a></li>
+    {% endif %}
   </ul>
 
 </div>
