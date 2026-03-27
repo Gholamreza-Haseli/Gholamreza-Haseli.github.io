@@ -1,27 +1,25 @@
-<footer class="page__footer" style="background: transparent !important; border-top: 1px solid #f2f3f3; padding: 20px 0; margin-top: 40px;">
-  <div class="page__footer-inner" style="display: flex; justify-content: space-between; align-items: center; max-width: 100%; margin: 0 auto; background: transparent !important;">
-    
-    <div style="font-size: 0.85em; color: #7a7a7a;">
-      &copy; {{ site.time | date: '%Y' }} <strong>Gholamreza Haseli</strong>. All rights reserved.
-    </div>
-
-    <ul style="margin: 0; padding: 0; list-style: none; display: flex; gap: 25px; font-size: 1.8em;">
-      
-      {% if site.author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" title="LinkedIn" style="color: #0077b5;"><i class="fab fa-fw fa-linkedin"></i></a></li>
-      {% endif %}
-      
-      {% if site.author.googlescholar %}
-        <li><a href="{{ site.author.googlescholar }}" title="Google Scholar" style="color: #4285f4;"><i class="fas fa-fw fa-graduation-cap"></i></a></li>
-      {% endif %}
-      
-      {% if site.author.github %}
-        <li><a href="https://github.com/{{ site.author.github }}" title="GitHub" style="color: #333;"><i class="fab fa-fw fa-github"></i></a></li>
-      {% endif %}
-
-      {% if site.author.email %}
-        <li><a href="mailto:{{ site.author.email }}" title="Email" style="color: #d44638;"><i class="fas fa-fw fa-envelope"></i></a></li>
-      {% endif %}
-    </ul>
+<div style="background: transparent !important; border-top: 1px solid #f2f3f3; padding: 20px 0; margin-top: 40px; display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  
+  <div style="font-size: 0.85em; color: #7a7a7a; background: transparent !important;">
+    &copy; 2026 <strong>Gholamreza Haseli</strong>. All rights reserved.
   </div>
-</footer>
+
+  <div style="display: flex; gap: 20px; background: transparent !important;">
+    
+    <a href="https://www.linkedin.com/in/gholamrezahaseli/" target="_blank" title="LinkedIn" style="font-size: 2em; color: #0077b5; background: transparent !important; text-decoration: none;">
+      <i class="fab fa-fw fa-linkedin"></i>
+    </a>
+    
+    <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" title="Google Scholar" style="font-size: 2em; color: #4285f4; background: transparent !important; text-decoration: none;">
+      <i class="fas fa-fw fa-graduation-cap"></i>
+    </a>
+    
+    <a href="https://github.com/Gholamreza-Haseli" target="_blank" title="GitHub" style="font-size: 2em; color: #333; background: transparent !important; text-decoration: none;">
+      <i class="fab fa-fw fa-github"></i>
+    </a>
+
+    <a href="mailto:haseli.gh@gmail.com" title="Email" style="font-size: 2em; color: #d44638; background: transparent !important; text-decoration: none;">
+      <i class="fas fa-fw fa-envelope"></i>
+    </a>
+  </div>
+</div>
