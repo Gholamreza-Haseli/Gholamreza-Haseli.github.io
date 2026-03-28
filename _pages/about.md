@@ -31,39 +31,53 @@ redirect_from:
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     display: block;
   }
-
-  /* استایل لیست علایق پژوهشی */
-  .interest-list {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 5px;
+<style>
+  /* استایل کلی باکس‌ها (حفظ ساختار اصلی مورد علاقه شما) */
+  .poms-research-box {
+    border: 1px solid var(--border-color, #f2f3f3); /* خط دور ظریف */
+    background: transparent !important;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease; /* انیمیشن نرم */
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
 
-  .interest-list li {
-    padding: 10px 15px;
-    margin-bottom: 6px;
-    font-size: 0.90em;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
+  /* افکت تعاملی هنگام هاور (حفظ رنگ زرد/طلایی مورد علاقه شما) */
+  .poms-research-box:hover {
+    background-color: rgba(212, 175, 55, 0.1) !important; /* پس‌زمینه طلایی ملایم */
+    border-color: #d4af37 !important; /* خط دور طلایی پررنگ */
+    transform: translateY(-3px); /* کمی بالا رفتن باکس */
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2); /* سایه طلایی */
+  }
+
+  /* استایل آیکون‌های جدید وکتور */
+  .research-icon {
+    margin-right: 20px;
+    font-size: 1.6em; /* بزرگ‌تر برای وضوح بیشتر */
+    min-width: 35px;
+    text-align: center;
+    background: transparent !important;
+    opacity: 0.9;
     transition: all 0.3s ease;
   }
+  
+  /* افکت آیکون هنگام هاور: بزرگ‌تر شدن و درخشش */
+  .poms-research-box:hover .research-icon {
+    transform: scale(1.1);
+    opacity: 1;
+  }
 
-  .interest-list li:hover {
-    transform: translateX(8px);
-    background-color: #d4af37;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
-    color: #0d1b3e;
-    border-left-color: #0d1b3e;
+  /* متن: ارث‌بری رنگ از تم اصلی */
+  .research-text {
+    font-size: 1.05em;
+    font-weight: 500;
+    color: inherit; /* خوانایی در تم مشکی و سفید */
   }
-  .interest-list i {
-    color: #d4af37;
-    margin-right: 10px;
-    width: 15px;
-    text-align: center;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
-  }
+</style>
   /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
   .wrapper {
     max-width: 95% !important;
@@ -107,14 +121,39 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
 
 <div class="poms-main-header" style="margin-top: 20px;">Research Interests</div>
 
-<ul class="interest-list">
-  <li><i class="fas fa-network-wired"></i> Supply Chain Management and Strategic Operations</li>
-  <li><i class="fas fa-cloud"></i> Cloud Supply Chain as a Service Risk, Resilience, and Sustainability</li>
-  <li><i class="fas fa-microchip"></i> Digital Transformation and Service-Oriented Platforms</li>
-  <li><i class="fas fa-recycle"></i> Circular Economy, Waste Management, and Sustainability</li>
-  <li><i class="fas fa-truck-moving"></i> Digitalization of Logistics and Transportation</li>
-  <li><i class="fas fa-calculator"></i> Novel Quantitative Decision Analytics and MCDM Approaches</li>
-</ul>
+<div class="research-container" style="margin-top: 25px;">
+  
+  <div class="poms-research-box">
+    <i class="fas fa-boxes research-icon" style="color: #0d1b3e;"></i>
+    <span class="research-text">Supply Chain Management and Strategic Operations</span>
+  </div>
+
+  <div class="poms-research-box">
+    <i class="fas fa-cloud-download-alt research-icon" style="color: #4285f4;"></i>
+    <span class="research-text">Cloud Supply Chain as a Service Risk, Resilience, and Sustainability</span>
+  </div>
+
+  <div class="poms-research-box">
+    <i class="fas fa-microchip research-icon" style="color: #9b59b6;"></i>
+    <span class="research-text">Digital Transformation and Service-Oriented Platforms</span>
+  </div>
+
+  <div class="poms-research-box">
+    <i class="fas fa-recycle research-icon" style="color: #27ae60;"></i>
+    <span class="research-text">Circular Economy, Waste Management, and Sustainability</span>
+  </div>
+
+  <div class="poms-research-box">
+    <i class="fas fa-truck-loading research-icon" style="color: #e67e22;"></i>
+    <span class="research-text">Digitalization of Logistics and Transportation</span>
+  </div>
+
+  <div class="poms-research-box">
+    <i class="fas fa-calculator research-icon" style="color: #e74c3c;"></i>
+    <span class="research-text">Novel Quantitative Decision Analytics and MCDM Approaches</span>
+  </div>
+
+</div>
 <style>
 
   /* کانتینر شبکه‌ای مینیمال برای تصاویر SDG */
