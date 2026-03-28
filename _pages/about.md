@@ -77,7 +77,6 @@ redirect_from:
     font-weight: 500;
     color: inherit; /* خوانایی در تم مشکی و سفید */
   }
-</style>
   /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
   .wrapper {
     max-width: 95% !important;
@@ -120,38 +119,14 @@ I introduced the Base-Criterion Method (BCM) in 2020 and the HECON method in 202
 I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/en) in Mexico. I have also been involved in international research collaborations, including the Digital Voting Hub for Sustainable Urban Transport Systems (VOTE-TRA) project [No. 22/NCF/DR/11309] funded by Science Foundation Ireland at [University College Dublin](https://www.ucd.ie), and the project Intersectoral and Interdisciplinary Cooperation in Research and Development of Communication and Information Technologies [CZ.02.01.01/00/23_021/0008402] at the [University of Hradec Králové](https://www.uhk.cz/en) in the Czech Republic. My current research aims to bridge decision sciences and cloud-based supply chain systems to support digital transformation, resilience, and intelligent decision support. I am open to international academic and industry collaborations.
 
 <div class="poms-main-header" style="margin-top: 20px;">Research Interests</div>
-
-<div class="research-container" style="margin-top: 25px;">
-  
-  <div class="poms-research-box">
-    <i class="fas fa-boxes research-icon" style="color: #0d1b3e;"></i>
-    <span class="research-text">Supply Chain Management and Strategic Operations</span>
-  </div>
-
-  <div class="poms-research-box">
-    <i class="fas fa-cloud-download-alt research-icon" style="color: #4285f4;"></i>
-    <span class="research-text">Cloud Supply Chain as a Service Risk, Resilience, and Sustainability</span>
-  </div>
-
-  <div class="poms-research-box">
-    <i class="fas fa-microchip research-icon" style="color: #9b59b6;"></i>
-    <span class="research-text">Digital Transformation and Service-Oriented Platforms</span>
-  </div>
-
-  <div class="poms-research-box">
-    <i class="fas fa-recycle research-icon" style="color: #27ae60;"></i>
-    <span class="research-text">Circular Economy, Waste Management, and Sustainability</span>
-  </div>
-
-  <div class="poms-research-box">
-    <i class="fas fa-truck-loading research-icon" style="color: #e67e22;"></i>
-    <span class="research-text">Digitalization of Logistics and Transportation</span>
-  </div>
-
-  <div class="poms-research-box">
-    <i class="fas fa-calculator research-icon" style="color: #e74c3c;"></i>
-    <span class="research-text">Novel Quantitative Decision Analytics and MCDM Approaches</span>
-  </div>
+<ul class="interest-list">
+  <li><i class="fas fa-network-wired"></i> Supply Chain Management and Strategic Operations</li>
+  <li><i class="fas fa-cloud"></i> Cloud Supply Chain as a Service Risk, Resilience, and Sustainability</li>
+  <li><i class="fas fa-microchip"></i> Digital Transformation and Service-Oriented Platforms</li>
+  <li><i class="fas fa-recycle"></i> Circular Economy, Waste Management, and Sustainability</li>
+  <li><i class="fas fa-truck-moving"></i> Digitalization of Logistics and Transportation</li>
+  <li><i class="fas fa-calculator"></i> Novel Quantitative Decision Analytics and MCDM Approaches</li>
+</ul>
 
 </div>
 <style>
