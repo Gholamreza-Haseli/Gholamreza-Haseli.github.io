@@ -165,9 +165,9 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
 </div>
 
 <div class="language-section" style="margin-top: 20px;">
+    <strong>Languages:</strong>
   <h4 style="border-bottom: 1px solid #d4af37; padding-bottom: 5px;"></h4>
-  <strong>Languages:</strong>
-  <p style="font-size: 0.90em;">
+  <p style="font-size: 0.85em;">
     <span class="badge-lang">English (Advanced)</span>
     <span class="badge-lang">Azerbaijani (Native)</span>
     <span class="badge-lang">Persian (Native)</span>
