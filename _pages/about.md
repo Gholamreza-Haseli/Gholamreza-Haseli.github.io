@@ -31,51 +31,37 @@ redirect_from:
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     display: block;
   }
-<style>
-  /* استایل کلی باکس‌ها (حفظ ساختار اصلی مورد علاقه شما) */
-  .poms-research-box {
-    border: 1px solid var(--border-color, #f2f3f3); /* خط دور ظریف */
-    background: transparent !important;
-    padding: 15px 20px;
-    border-radius: 6px;
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease; /* انیمیشن نرم */
-    cursor: pointer;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  /* استایل لیست علایق پژوهشی */
+  .interest-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5px;
   }
 
-  /* افکت تعاملی هنگام هاور (حفظ رنگ زرد/طلایی مورد علاقه شما) */
-  .poms-research-box:hover {
-    background-color: rgba(212, 175, 55, 0.1) !important; /* پس‌زمینه طلایی ملایم */
-    border-color: #d4af37 !important; /* خط دور طلایی پررنگ */
-    transform: translateY(-3px); /* کمی بالا رفتن باکس */
-    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2); /* سایه طلایی */
-  }
-
-  /* استایل آیکون‌های جدید وکتور */
-  .research-icon {
-    margin-right: 20px;
-    font-size: 1.6em; /* بزرگ‌تر برای وضوح بیشتر */
-    min-width: 35px;
-    text-align: center;
-    background: transparent !important;
-    opacity: 0.9;
+  .interest-list li {
+    padding: 10px 15px;
+    margin-bottom: 6px;
+    font-size: 0.90em;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #d4af37;
     transition: all 0.3s ease;
   }
-  
-  /* افکت آیکون هنگام هاور: بزرگ‌تر شدن و درخشش */
-  .poms-research-box:hover .research-icon {
-    transform: scale(1.1);
-    opacity: 1;
-  }
 
-  /* متن: ارث‌بری رنگ از تم اصلی */
-  .research-text {
-    font-size: 1.05em;
-    font-weight: 500;
-    color: inherit; /* خوانایی در تم مشکی و سفید */
+  .interest-list li:hover {
+    transform: translateX(8px);
+    background-color: #d4af37;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #d4af37;
+    color: #0d1b3e;
+    border-left-color: #0d1b3e;
+  }
+  .interest-list i {
+    color: #d4af37;
+    margin-right: 10px;
+    width: 15px;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #d4af37;
   }
   /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
   .wrapper {
