@@ -1,7 +1,6 @@
 ---
 title: 'New Book Publication: Reliable Decision-Making for Sustainable Transportation'
 date: 2026-03-27
-permalink: /posts/2026/03/elsevier-book-publication/
 tags:
   - Elsevier
   - Sustainable Transportation
