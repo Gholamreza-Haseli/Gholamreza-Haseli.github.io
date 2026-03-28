@@ -1,7 +1,7 @@
 ---
-title: 'Elsevier Book - Reliable Decision MAking For Sustainable Transportation'
+title: 'Elsevier Book-Reliable Decision MAking For Sustainable Transportation'
 date: 2025-09-14
-permalink: /posts/2012/08/blog-post-1/
+permalink: /Elsevier/Book-Reliable/Decision/MAking/For/Sustainable/Transportation/
 tags:
   - Decision Making
   - Sustainability
