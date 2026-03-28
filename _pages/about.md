@@ -60,8 +60,6 @@ redirect_from:
     margin-right: 10px;
     width: 15px;
     text-align: center;
-    border-radius: 4px 4px 0 0;
-    border: 1px solid #d4af37;
   }
   /* ۱. باز کردن عرض کل سایت به ۹۵ درصد (مشابه POMS) */
   .wrapper {
@@ -113,8 +111,6 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
   <li><i class="fas fa-truck-moving"></i> Digitalization of Logistics and Transportation</li>
   <li><i class="fas fa-calculator"></i> Novel Quantitative Decision Analytics and MCDM Approaches</li>
 </ul>
-
-</div>
 <style>
 
   /* کانتینر شبکه‌ای مینیمال برای تصاویر SDG */
