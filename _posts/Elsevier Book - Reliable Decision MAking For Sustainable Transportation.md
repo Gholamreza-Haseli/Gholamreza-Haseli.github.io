@@ -2,11 +2,11 @@
 title: 'Elsevier Book - Reliable Decision MAking For Sustainable Transportation'
 date: 2025-09-14
 permalink: /posts/2012/08/blog-post-1/
-teaser: /assests/images/posts/book-reliable.jpg
 tags:
   - Decision Making
   - Sustainability
   - Transportation
+teaser: /assests/images/posts/book-reliable.jpeg
 ---
 
 I am truly delighted to share that I have just received the hard copies of our recently published book, Reliable Decision-Making for Sustainable Transportation, released by [Elsevier](https://www.elsevier.com) – Academic Press.
