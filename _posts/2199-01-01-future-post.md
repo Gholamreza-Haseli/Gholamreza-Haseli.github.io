@@ -13,7 +13,7 @@ tags:
   - Decision Sciences
 ---
 
-Now Available for Pre-Order in **[Elsevier, Encyclopedia of Multi-Attribute Decision Making (MADM)](https://shop.elsevier.com/books/encyclopedia-of-multi-attribute-decision-making-madm/haseli/978-0-443-33275-3)**
+Now Available for Pre-Order in **Elsevier, Encyclopedia of Multi-Attribute Decision Making (MADM)**
 
 I am pleased to share that the Encyclopedia of Multi-Attribute Decision Making (MADM), published by **Elsevier**, is now available for pre-order, with the official release scheduled for **August 1, 2026**. I had the honor to serve as the lead editor of this international reference work.
 
