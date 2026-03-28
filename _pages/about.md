@@ -186,3 +186,14 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
     font-weight: 500;
   }
 </style>
+<div style="margin-top: 50px; padding: 25px; border: 2px dashed #d4af37; border-radius: 10px; background: rgba(212, 175, 55, 0.05); text-align: center;">
+  <h3 style="color: #0d1b3e; margin-top: 0;">Let's Connect!</h3>
+  <p style="font-size: 1.1em; color: inherit;">
+    I am actively seeking <strong>Assistant Professor</strong> and <strong>Lecturer</strong> opportunities and am open to discussing research collaborations, guest lectures, or academic projects.
+  </p>
+  <div style="margin-top: 15px;">
+    <a href="mailto:haseli.gh@gmail.com" style="color: #0d1b3e; font-weight: bold; text-decoration: none; border-bottom: 2px solid #0d1b3e; padding-bottom: 2px;">
+      <i class="fas fa-envelope"></i> haseli.gh@gmail.com
+    </a>
+  </div>
+</div>
