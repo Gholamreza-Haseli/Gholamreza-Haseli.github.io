@@ -166,7 +166,7 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
 
 <div class="language-section" style="margin-top: 20px;">
   <h4 style="border-bottom: 1px solid #d4af37; padding-bottom: 5px;"><strong>Languages</strong></h4>
-  <p style="font-size: 0.9em;">
+  <p style="font-size: 1.1em;">
     <span class="badge-lang">English (Advanced)</span>
     <span class="badge-lang">Azerbaijani (Native)</span>
     <span class="badge-lang">Persian (Native)</span>
@@ -186,14 +186,3 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
     font-weight: 500;
   }
 </style>
-<div style="margin-top: 50px; padding: 25px; border: 2px dashed #d4af37; border-radius: 10px; background: rgba(212, 175, 55, 0.05); text-align: center;">
-  <h3 style="color: #0d1b3e; margin-top: 0;">Let's Connect!</h3>
-  <p style="font-size: 1.1em; color: inherit;">
-    I am actively seeking <strong>Assistant Professor</strong> and <strong>Lecturer</strong> opportunities and am open to discussing research collaborations, guest lectures, or academic projects.
-  </p>
-  <div style="margin-top: 15px;">
-    <a href="mailto:haseli.gh@gmail.com" style="color: #0d1b3e; font-weight: bold; text-decoration: none; border-bottom: 2px solid #0d1b3e; padding-bottom: 2px;">
-      <i class="fas fa-envelope"></i> haseli.gh@gmail.com
-    </a>
-  </div>
-</div>
