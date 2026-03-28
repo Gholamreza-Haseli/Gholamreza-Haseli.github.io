@@ -167,3 +167,26 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
     <img src="{{ site.baseurl }}/images/sdg17.png" alt="SDG 17">
   </div>
 </div>
+
+<div class="language-section" style="margin-top: 20px;">
+  <h4 style="border-bottom: 1px solid #d4af37; padding-bottom: 5px;">Languages</h4>
+  <p style="font-size: 0.9em;">
+    <span class="badge-lang">English (Advanced)</span>
+    <span class="badge-lang">Azerbaijani (Native)</span>
+    <span class="badge-lang">Persian (Native)</span>
+    <span class="badge-lang">Turkish (Advanced)</span>
+    <span class="badge-lang">Spanish (Elementary)</span>
+  </p>
+</div>
+
+<style>
+  .badge-lang {
+    display: inline-block;
+    background: rgba(13, 27, 62, 0.05);
+    border: 1px solid #d4af37;
+    padding: 2px 10px;
+    margin: 3px;
+    border-radius: 15px;
+    font-weight: 500;
+  }
+</style>
