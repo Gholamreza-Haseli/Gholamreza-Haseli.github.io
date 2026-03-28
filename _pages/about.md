@@ -164,7 +164,7 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
   </div>
 </div>
 
-<div class="language-section" style="margin-top: 20px;">
+<div class="language-section" style="margin-top: 20px; margin-botton: 10px;">
    <strong>Languages:</strong>
   <p style="font-size: 0.85em;">
     <span class="badge-lang">English (Advanced)</span>
