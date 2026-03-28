@@ -6,7 +6,7 @@ tags:
   - Decision Making
   - Sustainability
   - Transportation
-teaser: /assests/images/posts/book-reliable.jpeg
+teaser: /assets/images/posts/book-reliable.jpeg
 ---
 
 I am truly delighted to share that I have just received the hard copies of our recently published book, Reliable Decision-Making for Sustainable Transportation, released by [Elsevier](https://www.elsevier.com) – Academic Press.
