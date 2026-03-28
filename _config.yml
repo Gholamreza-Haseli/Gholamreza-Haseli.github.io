@@ -12,7 +12,8 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Gholamreza Haseli"
 title_separator          : "-"
 name                     : &name "Gholamreza"
-description              : &description "Gholamreza's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Official academic portfolio of Gholamreza Haseli. Researcher in Production and Operations Management specializing in MCDM, Base Criterion Method (BCM), and Cloud Supply Chain as a Service."   # Update this with a general description of your site, this is the default if not overridden by a page
+keywords                 : "Gholamreza Haseli, BCM method, MCDM, Operations Management, Sustainable Supply Chain, Tecnologico de Monterrey"
 url                      : https://gholamreza-haseli.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -66,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/gholamreza-haseli-770452135/"
+  linkedin         : "gholamreza-haseli-770452135"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
