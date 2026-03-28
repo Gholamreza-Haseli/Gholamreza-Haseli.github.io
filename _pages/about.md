@@ -182,6 +182,7 @@ I am currently pursuing my Ph.D. at [Tecnológico de Monterrey](https://tec.mx/e
     border: 1px solid #d4af37;
     padding: 2px 10px;
     margin: 3px;
+    margin-top: 20px !important!
     border-radius: 15px;
     font-weight: 500;
   }
