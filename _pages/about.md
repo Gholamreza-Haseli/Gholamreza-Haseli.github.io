@@ -9,6 +9,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<head>: <link rel="icon" type="image/png" href="/images/logo1.png">
 <title>Gholamreza Haseli | Engineering Management Researcher</title>
 <meta name="description"
   content="Gholamreza Haseli — Ph.D. researcher at Tecnológico de Monterrey specializing in Engineering Management, MCDM, Cloud Supply Chain, and Digital Transformation.">
@@ -22,6 +23,7 @@ redirect_from:
 <meta property="og:url" content="https://gholamrezahaseli.com/">
 <meta property="og:type" content="profile">
 <meta property="og:image" content="https://gholamrezahaseli.com/images/profile2.png">
+
 <style>
   /* مخفی کردن تایتل پیش‌فرض قالب در این صفحه خاص */
   .page__title {
