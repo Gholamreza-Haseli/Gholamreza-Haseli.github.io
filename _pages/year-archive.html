@@ -81,3 +81,18 @@ redirect_from:
     .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
   }
 </style>
+   
+<div class="poms-main-header">{{ category[1].title }}</div>
+
+    {% for current_year in years %}
+      <div class="poms-year-header">{{ current_year }}</div>
+
+      {% assign year_posts = all_posts | where: "year", current_year | sort: "priority" %}
+      
+      <div style="margin-top: -25px;">
+        {% for post in year_posts %}
+        <div class="pub-item-wrapper">
+            {% include archive-single.html %}
+          </div>
+        {% endfor %}
+      </div>
