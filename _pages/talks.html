@@ -77,7 +77,7 @@ author_profile: true
 
 {% assign all_talks = site.talks | sort: "priority" %}
 
-<div class="poms-header">Books</div>
+<div class="poms-header", style="margin-top: 15px;">Books</div>
 <div class="activity-list">
   {% for post in all_talks %}
     {% if post.category == "books" %}
