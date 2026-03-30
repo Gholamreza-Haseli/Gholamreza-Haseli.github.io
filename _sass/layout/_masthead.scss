@@ -79,21 +79,41 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
-/* --- تنظیمات رنگ سرمه‌ای عمیق برای نوار بالا --- */
+/* --- اصلاح نهایی نوار ناوبری یکدست سرمه‌ای --- */
+.masthead, 
+.masthead__inner, 
+.masthead__navigation,
+.initial-content {
+    background-color: #001529 !important; /* رنگ سرمه‌ای عمیق */
+}
+
 .masthead {
-    background-color: #001529 !important; /* رنگ سرمه‌ای عمیق شخصی شما */
-    border-bottom: 2px solid #e8bc31; /* یک خط نازک طلایی-برنجی برای زیبایی */
+    border-bottom: 2px solid #e8bc31; /* خط طلایی زیر نوار */
+    padding: 0.5em 0; /* کمی فاصله برای زیبایی */
 }
 
-/* --- تنظیمات اندازه لوگو در نوار بالا --- */
-.site-title-logo {
-    display: inline-block;
-    vertical-align: middle;
+/* --- تغییر رنگ متن تمام آیتم‌های منو به سفید --- */
+.masthead__menu-item a {
+    color: #ffffff !important;
+    font-weight: 500;
+    
+    &:hover {
+        color: #e8bc31 !important; /* تغییر رنگ به طلایی هنگام نگه داشتن موس */
+    }
 }
 
+/* برای اینکه آیکون چرخ‌دنده (تنظیمات) هم سفید شود */
+.masthead__menu-item .fas, 
+.masthead__menu-item .fab,
+.masthead__menu-item .far {
+    color: #ffffff !important;
+}
+
+/* تنظیم لوگوی GH که قرار است اضافه کنید */
 .nav-logo {
-    height: 40px; /* اندازه لوگو متناسب با ارتفاع نوار */
+    height: 35px;
     width: auto;
-    border-radius: 50%; /* اگر لوگوی شما دایره ای نیست، آن را دایره ای می کند */
-    border: 2px solid #ffffff; /* یک فریم نازک سفید دور لوگو */
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
 }
