@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Gholamreza Haseli"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Gholamreza"
 description              : &description "Official academic portfolio of Gholamreza Haseli. Researcher in Production and Operations Management specializing in MCDM, Base Criterion Method (BCM), and Cloud Supply Chain as a Service."   # Update this with a general description of your site, this is the default if not overridden by a page
