@@ -79,3 +79,21 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+/* --- تنظیمات رنگ سرمه‌ای عمیق برای نوار بالا --- */
+.masthead {
+    background-color: #001529 !important; /* رنگ سرمه‌ای عمیق شخصی شما */
+    border-bottom: 2px solid #e8bc31; /* یک خط نازک طلایی-برنجی برای زیبایی */
+}
+
+/* --- تنظیمات اندازه لوگو در نوار بالا --- */
+.site-title-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-logo {
+    height: 40px; /* اندازه لوگو متناسب با ارتفاع نوار */
+    width: auto;
+    border-radius: 50%; /* اگر لوگوی شما دایره ای نیست، آن را دایره ای می کند */
+    border: 2px solid #ffffff; /* یک فریم نازک سفید دور لوگو */
+}
