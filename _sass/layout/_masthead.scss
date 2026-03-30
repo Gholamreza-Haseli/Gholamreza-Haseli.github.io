@@ -79,41 +79,24 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
-/* --- اصلاح نهایی نوار ناوبری یکدست سرمه‌ای --- */
-.masthead, 
-.masthead__inner, 
-.masthead__navigation,
-.initial-content {
-    background-color: #001529 !important; /* رنگ سرمه‌ای عمیق */
+/* --- حذف نهایی باکس سفید منو --- */
+.masthead__inner-navigation,
+.masthead__menu,
+ul.visible-links,
+.masthead__menu-item {
+    background-color: #001529 !important; /* دقیقاً همان سرمه‌ای */
+    border: none !important; /* حذف هرگونه خط دور باکس */
 }
 
-.masthead {
-    border-bottom: 2px solid #e8bc31; /* خط طلایی زیر نوار */
-    padding: 0.5em 0; /* کمی فاصله برای زیبایی */
+/* اصلاح فضای خالی (Padding) برای اینکه متن‌ها نچسبند */
+ul.visible-links {
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
-/* --- تغییر رنگ متن تمام آیتم‌های منو به سفید --- */
-.masthead__menu-item a {
-    color: #ffffff !important;
-    font-weight: 500;
-    
-    &:hover {
-        color: #e8bc31 !important; /* تغییر رنگ به طلایی هنگام نگه داشتن موس */
-    }
-}
-
-/* برای اینکه آیکون چرخ‌دنده (تنظیمات) هم سفید شود */
-.masthead__menu-item .fas, 
-.masthead__menu-item .fab,
-.masthead__menu-item .far {
-    color: #ffffff !important;
-}
-
-/* تنظیم لوگوی GH که قرار است اضافه کنید */
-.nav-logo {
-    height: 35px;
-    width: auto;
-    vertical-align: middle;
-    margin-right: 10px;
-    border-radius: 50%;
+/* اطمینان از اینکه در حالت موبایل هم سفید نشود */
+@media (max-width: 63.9375em) {
+  .masthead__menu-item ul {
+    background-color: #001529 !important;
+  }
 }
