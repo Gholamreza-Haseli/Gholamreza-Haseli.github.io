@@ -20,9 +20,9 @@ redirect_from:
   .poms-main-header {
     background-color: #0d1b3e;
     color: #f2e3c2;
-    padding: 10px 20px;
+    padding: 30px 20px;
     border-radius: 4px;
-    margin: -15px 0 10px 0; /* فاصله کمتر برای تیتر اول */
+    margin: 0px 0 10px 0; /* فاصله کمتر برای تیتر اول */
     border-left: 8px solid #d4af37;
     font-size: 1.2em;
     font-weight: bold;
