@@ -82,9 +82,8 @@ redirect_from:
   }
 </style>
    
-<div class="poms-main-header">{{ category[1].title }}</div>
-
-    {% for current_year in years %}
+<div class="poms-main-header">Teaching Philosophy</div>
+ 
       <div class="poms-year-header">{{ current_year }}</div>
 
       {% assign year_posts = all_posts | where: "year", current_year | sort: "priority" %}
