@@ -50,3 +50,13 @@
 .archive, .page {
   margin-top: 30px;
 }
+/* --- اجبار به استفاده از پس‌زمینه روشن برای محتوا --- */
+body {
+  background-color: #ffffff !important;
+  color: #333333 !important; /* رنگ متن تیره برای خوانایی در صفحه سفید */
+}
+
+/* اطمینان از اینکه باکس‌های محتوا هم سفید بمانند */
+.archive, .page__content, .page {
+  background-color: #ffffff !important;
+}
