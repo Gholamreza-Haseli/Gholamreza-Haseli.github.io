@@ -111,7 +111,7 @@ redirect_from:
   }
 </style>
 
-<div class="poms-cv-header">Curriculum Vitae</div>
+<div class="poms-cv-header", style="margin-top: 15px;">Curriculum Vitae</div>
 
 <p style="font-size: 0.95em; line-height: 1.4;">
   You can download my full Curriculum Vitae (CV) by clicking the button below. 
