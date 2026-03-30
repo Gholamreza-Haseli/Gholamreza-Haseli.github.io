@@ -79,48 +79,62 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
-/* --- نوسازی کامل نوار ناوبری (یکدست سرمه‌ای عمیق) --- */
-.masthead {
-  background-color: #001529 !important;
-  border-bottom: 2px solid #e8bc31 !important;
+/* --- حذف نهایی باکس سفید منو --- */
+.masthead__inner-navigation,
+.masthead__menu,
+ul.visible-links,
+.masthead__menu-item {
+    background-color: #001529 !important; /* دقیقاً همان سرمه‌ای */
+    border: none !important; /* حذف هرگونه خط دور باکس */
 }
 
-.masthead__inner {
-  background-color: transparent !important;
-  padding: 0 !important;
+/* اصلاح فضای خالی (Padding) برای اینکه متن‌ها نچسبند */
+ul.visible-links {
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
-.masthead__navigation {
-  background-color: transparent !important;
-  
-  ul {
-    background-color: transparent !important;
+/* اطمینان از اینکه در حالت موبایل هم سفید نشود */
+@media (max-width: 63.9375em) {
+  .masthead__menu-item ul {
+    background-color: #001529 !important;
   }
 }
+/* --- اصلاح نهایی نوار ناوبری یکدست سرمه‌ای --- */
+.masthead, 
+.masthead__inner, 
+.masthead__navigation,
+.initial-content {
+    background-color: #001529 !important; /* رنگ سرمه‌ای عمیق */
+}
 
-.masthead__menu-item {
-  background-color: transparent !important;
-  
-  a {
-    color: #ffffff !important; /* متن سفید */
+.masthead {
+    border-bottom: 2px solid #e8bc31; /* خط طلایی زیر نوار */
+    padding: 0.5em 0; /* کمی فاصله برای زیبایی */
+}
+
+/* --- تغییر رنگ متن تمام آیتم‌های منو به سفید --- */
+.masthead__menu-item a {
+    color: #ffffff !important;
+    font-weight: 500;
     
     &:hover {
-      color: #e8bc31 !important; /* طلایی هنگام هاور */
+        color: #e8bc31 !important; /* تغییر رنگ به طلایی هنگام نگه داشتن موس */
     }
-  }
 }
 
-/* برای آیکون چرخ‌دنده و بقیه آیکون‌ها */
+/* برای اینکه آیکون چرخ‌دنده (تنظیمات) هم سفید شود */
 .masthead__menu-item .fas, 
-.masthead__menu-item .fab, 
+.masthead__menu-item .fab,
 .masthead__menu-item .far {
-  color: #ffffff !important;
+    color: #ffffff !important;
 }
 
-/* حذف هرگونه باکس یا کانتینر سفید مزاحم */
-.initial-content, 
-.masthead__inner-navigation,
-ul.visible-links {
-  background-color: transparent !important;
-  border: none !important;
+/* تنظیم لوگوی GH که قرار است اضافه کنید */
+.nav-logo {
+    height: 35px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
 }
