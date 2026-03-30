@@ -129,3 +129,8 @@ ul.visible-links {
 .masthead__menu-item .far {
     color: #ffffff !important;
 }
+/* --- حذف مستطیل سفید سمت راست --- */
+.masthead__inner-wrap, 
+.masthead__inner-wrap nav {
+    background-color: #001529 !important;
+}
