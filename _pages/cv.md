@@ -124,7 +124,7 @@ redirect_from:
   </div>
   <div class="cv-info">
     <h3>Full Academic CV</h3>
-    <p style="margin-bottom: 15px; opacity: 0.8;">Last updated: March 2026</p>
+    <p style="margin-bottom: 15px; opacity: 0.8;">Last updated: April 2026</p>
     <a href="{{ base_path }}/files/Haseli_CV.pdf" class="btn-poms-gold" target="_blank">
       <i class="fas fa-download"></i> Download PDF
     </a>
