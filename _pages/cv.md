@@ -114,8 +114,7 @@ redirect_from:
 <div class="poms-cv-header">Curriculum Vitae</div>
 
 <p style="font-size: 0.95em; line-height: 1.4; margin-top: 15px;">
-  You can download my full Curriculum Vitae (CV) by clicking the button below. 
-  The document includes my detailed research experience, publications, editorial roles, and academic achievements.
+  My full academic CV is available for download below. It includes detailed information on my research experience, publications, editorial and reviewing activities, funded projects, teaching record, and academic achievements.
 </p>
 
 <div class="cv-download-card">
