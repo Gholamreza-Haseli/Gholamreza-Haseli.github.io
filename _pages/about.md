@@ -111,7 +111,7 @@ I am open to international collaborations in research, editorial work, and appli
   <li><i class="fas fa-microchip"></i> Digital Transformation and Service-Oriented Platforms</li>
   <li><i class="fas fa-recycle"></i> Circular Economy, Waste Management, and Sustainability</li>
   <li><i class="fas fa-truck-moving"></i> Digitalization of Logistics and Transportation</li>
-  <li><i class="fas fa-calculator"></i> Novel Quantitative Decision Analytics and MCDM Approaches</li>
+  <li><i class="fas fa-calculator"></i> Novel Quantitative and Qualitative Decision Analytics Approaches</li>
 </ul>
 <style>
 
