@@ -24,7 +24,7 @@ repository               : "gholamreza-haseli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile2.png" alt="Gholamreza Haseli - Industrial Engineering Researcher"
+  avatar           : "profile2.png"
   name             : "Gholamreza Haseli"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. in Industrial Engineering"
