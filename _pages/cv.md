@@ -185,14 +185,3 @@ redirect_from:
     please feel free to reach out via email.
   </p>
 </div>
-/* حل مشکل تداخل فوتر (Sitemap) با سایدبار و لوگوها */
-#main {
-  overflow: hidden; /* یا استفاده از clear */
-}
-
-.page__footer {
-  clear: both !important;
-  display: block !important;
-  position: relative !important;
-  margin-top: 50px !important;
-}
