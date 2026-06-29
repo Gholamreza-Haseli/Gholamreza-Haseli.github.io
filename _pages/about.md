@@ -168,10 +168,10 @@ I welcome opportunities for international collaboration in research, editorial a
   </div>
 </div>
   
-   <strong>Languages:</strong>
-  <div class="language-section" style="margin-top: 20px, margin-botton: 40px;">
+   <h3 style="font-size: 1.1em; margin-top: 30px; margin-bottom: 15px;">Languages:</h3>
 
-  <p style="font-size: 0.85em;">
+<div class="language-section" style="margin-top: 20px; margin-bottom: 40px;">
+  <p style="font-size: 0.85em; margin: 0;">
     <span class="badge-lang">English (Advanced)</span>
     <span class="badge-lang">Azerbaijani (Native)</span>
     <span class="badge-lang">Persian (Native)</span>
@@ -186,8 +186,9 @@ I welcome opportunities for international collaboration in research, editorial a
     background: rgba(13, 27, 62, 0.05);
     border: 1px solid #d4af37;
     padding: 2px 10px;
-    margin: 3px;
+    margin: 4px;
     border-radius: 15px;
     font-weight: 500;
+    color: #0d1b3e; /* هماهنگی رنگ متن با تم سرمه‌ای سایت */
   }
 </style>
