@@ -173,7 +173,7 @@ redirect_from:
 
   <!-- ستون سمت راست: عکس جدید -->
   <div class="cv-photo-side">
-    <img src="{{ base_path }}/images/profile-blue.jpg" alt="Academic Profile Picture">
+    <img src="{{ base_path }}/images/profile-blue.jpg" alt="Gholamreza Haseli - Industrial Engineering Researcher">
   </div>
 
 </div>
