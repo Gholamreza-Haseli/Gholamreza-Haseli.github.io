@@ -30,6 +30,30 @@ redirect_from:
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   }
 
+  /* ساختار دو ستونه جدید */
+  .cv-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .cv-main-content {
+    flex: 1;
+  }
+
+  .cv-photo-side {
+    flex: 0 0 280px; /* عرض ثابت برای عکس */
+  }
+
+  .cv-photo-side img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid rgba(13, 27, 62, 0.1);
+  }
+
   /* کارت دانلود PDF */
   .cv-download-card {
     display: flex;
@@ -78,10 +102,10 @@ redirect_from:
     color: #f2e3c2 !important;
     border-color: #d4af37;
   }
-  /
+
   .wrapper {
     max-width: 95% !important;
-    margin: 0 100 !important;
+    margin: 0 auto !important; /* اصلاح خطای مقدار قبلی ۱۰۰ */
   }
 
   /* ۲. حذف محدودیت عرض از بخش اصلی محتوا */
@@ -102,36 +126,61 @@ redirect_from:
       margin-right: 0 !important;
     }
   }
+
   /* ۷. واکنش‌گرایی برای موبایل */
   @media (max-width: 64em) {
     #main { display: block !important; }
     .wrapper { max-width: 100% !important; padding: 0 15px !important; }
     .sidebar { width: 100% !important; margin-bottom: 30px !important; }
-    .interest-grid { grid-template-columns: 1fr; } /* تک ستونه در موبایل */
+    .interest-grid { grid-template-columns: 1fr; }
+    
+    /* تغییر چینش به حالت عمودی در موبایل */
+    .cv-container {
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+    .cv-photo-side {
+      width: 220px;
+      margin: 0 auto 10px auto; /* وسط‌چین شدن عکس در موبایل */
+    }
   }
 </style>
 
 <div class="poms-cv-header">Curriculum Vitae</div>
 
-<p style="font-size: 0.95em; line-height: 1.4; margin-top: 15px;">
-  My full academic CV is available for download below. It includes detailed information on my research experience, publications, editorial and reviewing activities, funded projects, teaching record, and academic achievements.
-</p>
+<!-- کانتینر دو ستونه برای متن و عکس -->
+<div class="cv-container">
+  
+  <!-- ستون سمت چپ: متن و کارت دانلود -->
+  <div class="cv-main-content">
+    <p style="font-size: 0.95em; line-height: 1.4; margin-top: 0;">
+      My full academic CV is available for download below. It includes detailed information on my research experience, publications, editorial and reviewing activities, funded projects, teaching record, and academic achievements.
+    </p>
 
-<div class="cv-download-card">
-  <div class="pdf-icon">
-    <i class="fas fa-file-pdf"></i>
+    <div class="cv-download-card">
+      <div class="pdf-icon">
+        <i class="fas fa-file-pdf"></i>
+      </div>
+      <div class="cv-info">
+        <h3>Full Academic CV</h3>
+        <p style="margin-bottom: 15px; opacity: 0.8;">Last updated: June 2026</p>
+        <a href="{{ base_path }}/files/Haseli_CV.pdf" class="btn-poms-gold" target="_blank">
+          <i class="fas fa-download"></i> Download PDF
+        </a>
+      </div>
+    </div>
   </div>
-  <div class="cv-info">
-    <h3>Full Academic CV</h3>
-    <p style="margin-bottom: 15px; opacity: 0.8;">Last updated: June 2026</p>
-    <a href="{{ base_path }}/files/Haseli_CV.pdf" class="btn-poms-gold" target="_blank">
-      <i class="fas fa-download"></i> Download PDF
-    </a>
+
+  <!-- ستون سمت راست: عکس جدید -->
+  <div class="cv-photo-side">
+    <img src="{{ base_path }}/images/profile-blue.jpg" alt="Academic Profile Picture">
   </div>
+
 </div>
 
-<div style="margin-top: 50px; padding: 20px; border-left: 4px solid #0d1b3e; background: rgba(13, 27, 62, 0.05);">
-  <p style="font-style: italic; font-size: 0.9em;">
+<!-- بخش نوت پایینی -->
+<div style="margin-top: 30px; padding: 20px; border-left: 4px solid #0d1b3e; background: rgba(13, 27, 62, 0.05);">
+  <p style="font-style: italic; font-size: 0.9em; margin: 0;">
     Note: For collaboration inquiries or detailed information regarding specific research projects, 
     please feel free to reach out via email.
   </p>
