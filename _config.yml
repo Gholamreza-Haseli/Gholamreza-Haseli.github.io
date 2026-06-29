@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Home"
 title_separator          : "-"
-name                     : &name "Gholamreza"
+name                     : &name "Gholamreza Haseli"
 description              : &description "Official academic portfolio of Gholamreza Haseli. Researcher in Production and Operations Management specializing in MCDM, Base Criterion Method (BCM), and Cloud Supply Chain as a Service."   # Update this with a general description of your site, this is the default if not overridden by a page
 keywords                 : "Gholamreza Haseli, BCM method, MCDM, Operations Management, Sustainable Supply Chain, Tecnologico de Monterrey"
 url                      : "https://gholamrezahaseli.com" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
@@ -24,7 +24,7 @@ repository               : "gholamreza-haseli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile2.png"
+  avatar           : "profile2.png" alt="Gholamreza Haseli - Industrial Engineering Researcher"
   name             : "Gholamreza Haseli"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. in Industrial Engineering"
