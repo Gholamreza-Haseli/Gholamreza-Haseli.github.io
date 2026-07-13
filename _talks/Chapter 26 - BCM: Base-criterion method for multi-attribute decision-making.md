@@ -4,7 +4,7 @@ title: "Chapter 26 - BCM: Base-criterion method for multi-attribute decision-mak
 collection: talks
 category: chapters
 permalink: /publication/Chapter-26---BCM:-Base---criterion-method-for-multi---attribute-decision---making
-excerpt: 'Haseli, G. (2026). &quot;Chapter 26 - BCM: Base-criterion method for multi-attribute decision-making.&quot; <i>[Encyclopedia of Multi-Attribute Decision Making (MADM)](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443332753000981)</i>. Springer Nature Singapore, 17-38.'
+excerpt: 'Haseli, G. (2026). &quot;Chapter 26 - BCM: Base-criterion method for multi-attribute decision-making.&quot; <i>[Encyclopedia of Multi-Attribute Decision Making (MADM)](https://www.sciencedirect.com/book/edited-volume/9780443332753/encyclopedia-of-multi-attribute-decision-making-madm#about-the-book)</i>. Elsevier, Morgan Kaufmann, 391-402.'
 paperurl: 'https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443332753000981'
 cover: "/images/Encyclopedia4.png"
 ---
