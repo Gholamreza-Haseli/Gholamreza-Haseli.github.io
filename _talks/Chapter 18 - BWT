@@ -1,0 +1,19 @@
+---
+priority: 9
+title: "Chapter 18 - BWT: Best-worst tradeoff for multi-attribute decision-making"
+collection: talks
+category: chapters
+permalink: /publication/Chapter-18---BWT:-Best-–-worst-tradeoff-for-multi---attribute-decision---making
+excerpt: 'Haseli, G., Nazarian-Jashnabadi, J., Hajiaghaei-Keshteli, M., Deveci, M., & Tomaskova, H. (2026). BWT: Best-worst tradeoff for multi-attribute decision-making.&quot; <i>[Encyclopedia of Multi-Attribute Decision Making (MADM)](https://www.sciencedirect.com/book/edited-volume/9780443332753/encyclopedia-of-multi-attribute-decision-making-madm#about-the-book)</i>. Elsevier, Morgan Kaufmann, 23-287.'
+paperurl: 'https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443332753000439'
+cover: "/images/Encyclopedia4.png"
+---
+
+
+[Download book](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443332753000439)
+
+
+Abstract
+
+
+The best-worst tradeoff (BWT) method, which evaluates alternatives based on the importance of criteria, is a multi-attribute decision-making approach. Combining the strengths of the best–worst method (BWM) and the tradeoff method, BWT provides an efficient framework for decision-making in complex problems. This method offers a comprehensive approach by leveraging the reduced number of pairwise comparisons, high consistency index, and mathematical modeling capabilities of BWM, while also considering the range of criteria variations and multianalysis value theory in the tradeoff method. BWT reduces cognitive biases by using the structured reference points of BWM and increases decision-making accuracy by explicitly assessing the decision-maker’s priorities in the tradeoff method. In this method, the decision-maker takes into account the ranges of the attributes and supplies two pairwise comparison vectors. An optimization model is then formulated to derive the optimal attribute weights from these vectors. Subsequently, consistency thresholds are established to evaluate the consistency of the judgments. To investigate and evaluate the application of the BWT method, the problem of “optimal selection of a business intelligence system” was analyzed.
