@@ -173,8 +173,8 @@ I welcome opportunities for international collaboration in research, editorial a
 <div class="language-section" style="margin-top: 20px; margin-bottom: 40px;">
   <p style="font-size: 0.85em; margin: 0;">
     <span class="badge-lang">English (Advanced)</span>
-    <span class="badge-lang">Azerbaijani (Native)</span>
     <span class="badge-lang">Persian (Native)</span>
+    <span class="badge-lang">Azeri (Native)</span>
     <span class="badge-lang">Turkish (Advanced)</span>
     <span class="badge-lang">Spanish (Elementary)</span>
   </p>
