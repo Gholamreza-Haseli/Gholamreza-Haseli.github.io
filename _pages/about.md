@@ -104,8 +104,6 @@ My research has resulted in more than 25 peer-reviewed journal publications in l
 
 Beyond research, I have been involved in internationally funded projects, including the Digital Voting Hub for Sustainable Urban Transport Systems (VOTE-TRA) project [No. 22/NCF/DR/11309] funded by Science Foundation Ireland (SFI) at [University College Dublin](https://www.ucd.ie), and the project Intersectoral and Interdisciplinary Cooperation in Research and Development of Communication and Information Technologies [CZ.02.01.01/00/23_021/0008402] at the [University of Hradec Králové](https://www.uhk.cz/en) in the Czech Republic. 
 
-I welcome opportunities for international collaboration in research, editorial activities, and applied decision-support projects. If you are interested in potential collaboration, I would be pleased to hear from you.
-
 <div class="poms-main-header" style="margin-top: 20px;">Research Interests</div>
 <ul class="interest-list">
   <li><i class="fas fa-network-wired"></i> Supply Chain Management and Strategic Operations</li>
