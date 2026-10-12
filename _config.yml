@@ -28,13 +28,7 @@ author:
   name             : "Gholamreza Haseli"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. in Industrial Engineering"
-  logo             : "<a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9"
-   target="_blank" rel="noopener"
-   title="Stanford/Elsevier World's Top 2% Scientists 2026">
-  <img src="{{ '/images/top2-badge.png' | relative_url }}"
-       alt="Stanford/Elsevier World's Top 2% Scientists 2026"
-       style="width:170px; display:block; margin:12px auto;">
-</a>"
+  logo             : "<a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9" target="_blank" rel="noopener" title="Stanford/Elsevier World's Top 2% Scientists 2026"> <img src="{{ '/images/top2-badge.png' | relative_url }}" alt="Stanford/Elsevier World's Top 2% Scientists 2026" style="width:170px; display:block; margin:12px auto;"></a>"
   location         : "Mexico"
   employer         : "Tecnologico de Monterrey"
   uri              : # URL
